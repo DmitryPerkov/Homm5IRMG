@@ -1,0 +1,1090 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C49F357-0EC4-472F-94DA-75D005BCAE5B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Homm5RMG</RootNamespace>
+    <AssemblyName>Homm5RMG</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>Resources\start.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/Homm5RMG/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'release2|AnyCPU' ">
+    <OutputPath>bin\release2\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'release2|x64' ">
+    <OutputPath>bin\x64\release2\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\hmm5\IRMG\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\MapCreator.cs" />
+    <Compile Include="BL\ObjectsMapTerrainLayer.cs" />
+    <Compile Include="BL\Randomizer.cs" />
+    <Compile Include="BL\WSound.cs" />
+    <Compile Include="Data Layer\ComboArmyBuilder.cs" />
+    <Compile Include="Data Layer\ComboArmyParser.cs" />
+    <Compile Include="Data Layer\EnumConvert.cs" />
+    <Compile Include="Data Layer\MonstersParser.cs" />
+    <Compile Include="Data Layer\TerrainWriter.cs" />
+    <Compile Include="Data Layer\TownGarrisonBuilder.cs" />
+    <Compile Include="Data Layer\TownGarrisonParser.cs" />
+    <Compile Include="Data Layer\TownSpecBuilder.cs" />
+    <Compile Include="Data Layer\TownSpecParser.cs" />
+    <Compile Include="GUI\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ExtendedBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\frmAddCustomObject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmAddCustomObject.Designer.cs">
+      <DependentUpon>frmAddCustomObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmPickGuard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmPickGuard.Designer.cs">
+      <DependentUpon>frmPickGuard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmTemplateEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmTemplateEditor.Designer.cs">
+      <DependentUpon>frmTemplateEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmMines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmMines.Designer.cs">
+      <DependentUpon>frmMines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmObjectsPick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmObjectsPick.Designer.cs">
+      <DependentUpon>frmObjectsPick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmTemplateSite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmTemplateSite.Designer.cs">
+      <DependentUpon>frmTemplateSite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmTowns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmTowns.Designer.cs">
+      <DependentUpon>frmTowns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data Layer\Guards.cs" />
+    <Compile Include="GUI\ImageListPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BL\ItemIDGenerator.cs" />
+    <Compile Include="BL\MapObject.cs" />
+    <Compile Include="BL\MapPoint.cs" />
+    <Compile Include="BL\ObjectsMapObjectLayer.cs" />
+    <Compile Include="BL\ObjectSpacificPropertiesHelper.cs" />
+    <Compile Include="BL\TemplateMapObject.cs" />
+    <Compile Include="BL\ObjectsMapZonesLayer.cs" />
+    <Compile Include="Data Layer\ObjectsReader.cs" />
+    <Compile Include="Data Layer\ObjectsWriter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\AboutBox1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmAddCustomObject.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddCustomObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmPickGuard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPickGuard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmSplash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmTemplateEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTemplateEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMines.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmObjectsPick.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmObjectsPick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmTemplateSite.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTemplateSite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmTowns.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTowns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ImageListPopup.resx">
+      <DependentUpon>ImageListPopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Data Layer\TemplateHandler.cs" />
+    <Compile Include="GUI\ToleranceSliderControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BL\Voronoi.cs" />
+    <Compile Include="BL\VoronoiPoint.cs" />
+    <Compile Include="BL\VoronoiPointExistException.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Testing\ComboArmyTester.cs" />
+    <Compile Include="Testing\LostObjectsCounter.cs" />
+    <Compile Include="Testing\TestingUtility.cs" />
+    <Compile Include="Testing\TownGarrisonTester.cs" />
+    <Compile Include="Testing\XmlAreaReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6181_orig_HOMM5_PC_sylvan_041.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heroes_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wi0090-48.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Choose1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Future.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draw2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash-of-single-drop-in-still-water-pink-and-cyan-AJHD2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BackGrounds\6181_orig_HOMM5_PC_sylvan_041.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BackGrounds\H5mine.gif" />
+    <Content Include="BackGrounds\heroes3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BackGrounds\heroes5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BackGrounds\heroes50422_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BackGrounds\heroes50422_4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BackGrounds\heroes50422_6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Manticore_Cave\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Manticore_Cave\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Manticore_Cave\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Manticore_Cave\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Mummy_Graves\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Mummy_Graves\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Mummy_Graves\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Mummy_Graves\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Wolf_Lair\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Wolf_Lair\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Wolf_Lair\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Wolf_Lair\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Manticore_Cave\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Manticore_Cave\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Manticore_Cave\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Manticore_Cave\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Mummy_Graves\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Mummy_Graves\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Mummy_Graves\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Mummy_Graves\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Wolf_Lair\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Wolf_Lair\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Wolf_Lair\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Wolf_Lair\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Dark_halls\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Dark_halls\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Dark_halls\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Dark_halls\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Fire_stone\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Fire_stone\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Fire_stone\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Fire_stone\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\MapGoalText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Dark_halls\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Dark_halls\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Dark_halls\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Dark_halls\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Fire_stone\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Fire_stone\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Fire_stone\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Fire_stone\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\MapGoalText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Dark_halls\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Dark_halls\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Dark_halls\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Dark_halls\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Fire_stone\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Fire_stone\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Fire_stone\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Fire_stone\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Manticore_Cave\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Manticore_Cave\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Manticore_Cave\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Manticore_Cave\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Mummy_Graves\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Mummy_Graves\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Mummy_Graves\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Mummy_Graves\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Wolf_Lair\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Wolf_Lair\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Wolf_Lair\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Wolf_Lair\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\MapGoalText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Dark_halls\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Dark_halls\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Dark_halls\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Dark_halls\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Fire_stone\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Fire_stone\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Fire_stone\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Fire_stone\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Manticore_Cave\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Manticore_Cave\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Manticore_Cave\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Manticore_Cave\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Mummy_Graves\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Mummy_Graves\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Mummy_Graves\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Mummy_Graves\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Wolf_Lair\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Wolf_Lair\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Wolf_Lair\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Wolf_Lair\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\MapGoalText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Wolf_Lair\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Wolf_Lair\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Wolf_Lair\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Wolf_Lair\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Dark_halls\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Dark_halls\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Fire_stone\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Dark_halls\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Dark_halls\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Fire_stone\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Fire_stone\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Fire_stone\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\MapGoalText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Manticore_Cave\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Manticore_Cave\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Manticore_Cave\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Manticore_Cave\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Mummy_Graves\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Mummy_Graves\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Mummy_Graves\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Mummy_Graves\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Dark_halls\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Dark_halls\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Dark_halls\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Dark_halls\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Fire_stone\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Fire_stone\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Fire_stone\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Fire_stone\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Manticore_Cave\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Manticore_Cave\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Manticore_Cave\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Manticore_Cave\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Mummy_Graves\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Mummy_Graves\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Mummy_Graves\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Mummy_Graves\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Wolf_Lair\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Wolf_Lair\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Wolf_Lair\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Wolf_Lair\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\MapGoalText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Dark_halls\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Dark_halls\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Dark_halls\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Dark_halls\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Fire_stone\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Fire_stone\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Fire_stone\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Fire_stone\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Manticore_Cave\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Manticore_Cave\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Manticore_Cave\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Manticore_Cave\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Mummy_Graves\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Mummy_Graves\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Mummy_Graves\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Mummy_Graves\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Wolf_Lair\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Wolf_Lair\FirstVisitNoHire.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Wolf_Lair\F_stone_Ref.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Wolf_Lair\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\description.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\MapGoalText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\name.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Dwellings.xml" />
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Manticore_Cave\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Mummy_Graves\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Wolf_Lair\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Manticore_Cave\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Mummy_Graves\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Wolf_Lair\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Manticore_Cave\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Mummy_Graves\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Wolf_Lair\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Manticore_Cave\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Mummy_Graves\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Wolf_Lair\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Manticore_Cave\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Mummy_Graves\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Wolf_Lair\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Manticore_Cave\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Mummy_Graves\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Wolf_Lair\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\6181_orig_HOMM5_PC_sylvan_0411.jpg" />
+    <Content Include="Data\TownSpec.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ancient_shield2.ICO" />
+    <Content Include="Data\Blocks.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Monsters.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Mines.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Objects.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\GroundTerrain.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\map.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\GroundTerrain.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\map.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\GroundTerrain.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\map.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\GroundTerrain.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\map.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\GroundTerrain.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\map.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\GroundTerrain.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\map.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\GroundTerrain.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\map.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28MoonCalendar%29\IRMGChaosWeeks.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\map-tag.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\map-tag.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\map-tag.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\map-tag.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\map-tag.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\map-tag.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\map-tag.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28MoonCalendar%29\IRMGChaosWeeks.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28MoonCalendar%29\IRMGChaosWeeks.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28MoonCalendar%29\IRMGChaosWeeks.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28MoonCalendar%29\IRMGChaosWeeks.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28MoonCalendar%29\IRMGChaosWeeks.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28MoonCalendar%29\IRMGChaosWeeks.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Dark_halls\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Fire_stone\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Dark_halls\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Small\.%28New_buildings%29\Fire_stone\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Dark_halls\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Tiny\.%28New_buildings%29\Fire_stone\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Dark_halls\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\ExtraLarge\.%28New_buildings%29\Fire_stone\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Dark_halls\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Huge\.%28New_buildings%29\Fire_stone\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Dark_halls\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Impossible\.%28New_buildings%29\Fire_stone\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Dark_halls\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Large\.%28New_buildings%29\Fire_stone\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Wolf_Lair\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Mummy_Graves\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Basic Empty Map Files\Medium\.%28New_buildings%29\Manticore_Cave\Dungeon_Military_Post.xdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Objects.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\MapEditor.ico" />
+    <None Include="Resources\icon_quillpen.gif" />
+    <None Include="Resources\map.gif" />
+    <None Include="Resources\Web-Explorer.ico" />
+    <None Include="Resources\start-here.ico" />
+    <None Include="Resources\file-save-as.ico" />
+    <None Include="Resources\save-as.ico" />
+    <None Include="Resources\Folder-Options.ico" />
+    <None Include="Resources\User-Info.ico" />
+    <None Include="Resources\text.ico" />
+    <None Include="Resources\app-help.ico" />
+    <None Include="Resources\tee-1.ico" />
+    <None Include="Resources\tee-2.ico" />
+    <None Include="Resources\symbol-purpel.ico" />
+    <None Include="Resources\symbol.ico" />
+    <None Include="Resources\mosaic.ico" />
+    <None Include="Resources\file-new.ico" />
+    <None Include="Resources\file-del.ico" />
+    <None Include="Resources\Sea-Chart.ico" />
+    <None Include="Resources\Sea-Chart1.ico" />
+    <Content Include="Data\OtherObjects.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Resources.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\TownData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\mail2.ico" />
+    <None Include="Resources\mail21.ico" />
+    <None Include="Resources\Excel-48.gif" />
+    <None Include="Resources\heroes-icon.png" />
+    <None Include="Resources\heroesicon.gif" />
+    <None Include="Resources\heroes5.gif" />
+    <None Include="Resources\heroes51.gif" />
+    <None Include="Resources\heroes5pl.gif" />
+    <Content Include="Resources\MapReady.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\start.ico" />
+    <None Include="Resources\cancel.jpg" />
+    <None Include="Templates\HugeTemplates\Letos.irt" />
+    <None Include="Templates\HugeTemplates\M3.irt" />
+    <None Include="Templates\HugeTemplates\Maze.irt" />
+    <None Include="Templates\HugeTemplates\Spider.irt" />
+    <Content Include="Templates\JebusV5.irt">
+    </Content>
+    <None Include="ver.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

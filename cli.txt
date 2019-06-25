@@ -1,0 +1,47 @@
+Homm5RMG Тип_генерации PL1=Раса_игрока_1[(Exc(исключаемые расы через запятую))] 
+                       PL2=Раса_игрока_2[(Exc(исключаемые расы через запятую))]
+                      [PL3=Раса_игрока_3[(Exc(исключаемые расы через запятую))]] 
+                      [PL4=Раса_игрока_4[(Exc(исключаемые расы через запятую))]]
+         Template=Полное_имя_файла_шаблона|DirTemplate=Полное_имя_каталога_шаблона
+         Path=Путь_для_сохранения_шаблонов
+         [Dwelling=Standart|Random|Extented]
+         [Syze=Размер]
+         [Name=Имя_для_карты]
+         [HaosWeek=1|0]
+         [Diff=1|0]
+Тип генерации: 1 = 1 vs 1
+               2 = 1 vs 1 vs 1
+               3 = 1 vs 1 vs 1 vs 1 
+               4 = 1 + 1 vs 1 + 1 (парная)
+
+Раса_игрока_X: 0-random
+               1-Haven
+               2-Sylvan   
+               3-dungeon
+               4-inferno
+               5-fortress
+               6-stronghold
+               7-Academy
+               8-Necro
+Exc(исключаемые расы через запятую):Только для Расы Random можно указать исключаемые расы(1-8)
+
+Template=путь с шаблоном
+DirTemplate=путь с папкой шаблонов
+Размер: Medium
+        Small
+        Tiny
+        Impossible
+        Huge         default 
+        ExtraLarge
+        Large
+Dwelling  по умолчанию Random
+Name      по умолчанию имя карты генерируется
+HaosWeek  по умолчанию 0=нет
+Diff      Differnt Faction, по умолчанию 1=да
+
+Примеры: Homm5RMG 1 PL1=1 PL2=7 Template=c:\hmm\irmg\hugetemplate\mask.irt Path=c:\hmm\maps Name=moz_vs_dwp1
+         Homm5RMG 1 PL1=0 PL2=0 DirTemplate=c:\hmm\irmg\hugetemplate Path=c:\hmm\maps Name=moz_vs_dwp2
+         Homm5RMG 1 PL1=0 PL2=0 DirTemplate=c:\hmm\irmg\hugetemplate Path=c:\hmm\maps Name=moz_vs_dwp2 Diff=0
+         Homm5RMG 1 PL1=0(Exc(6,8)) PL2=0(Exc(3,8)) DirTemplate=c:\hmm\irmg\hugetemplate Path=c:\hmm\maps Name=moz_vs_dwp3
+         Homm5RMG 1 PL1=1 PL2=0(Exc(3,8)) DirTemplate=c:\hmm\irmg\hugetemplate Path=c:\hmm\maps
+        
