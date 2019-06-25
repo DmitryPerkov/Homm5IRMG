@@ -1,0 +1,4197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+  <BattleObjects>
+    <Object Name="Towns" Value="0" MaxNumber="" Chance="0.0">
+    </Object>
+    <Object Name="Mines" Value="0" MaxNumber="" Chance="0.0">
+    </Object>
+    <Object Name="Hut_Of_Magi1" Value="0" MaxNumber="" Chance="0.0" ShouldBeGuarded="true" AccessPoint="0,-1" Area="-1,0;1,0;-1,1;0,1;1,1;-1,2;0,2;1,2">
+      	<Item href="#n:inline(AdvMapBuilding)" id="item_5A134B02-B51F-4D7F-A2ED-954A0D794069">
+      		<AdvMapBuilding>
+			<Pos>
+  				<x>25</x>
+  				<y>45</y>
+  				<z>0</z>
+  			</Pos>
+  			<Rot>0</Rot>
+  			<Floor>0</Floor>
+  			<Name/>
+  			<CombatScript/>
+  			<pointLights/>
+  			<Shared href="/MapObjects/Hut_Of_Magi.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+  			<PlayerID>PLAYER_2</PlayerID>
+  			<CaptureTrigger>
+  				<Action>
+  					<FunctionName/>
+  				</Action>
+  			</CaptureTrigger>
+  			<GroupID>1</GroupID>
+  			<showCameras/>
+      		</AdvMapBuilding>
+      	</Item>
+    </Object>
+    <Object Name="Hut_Of_Magi2" Value="0" MaxNumber="" Chance="0.0" ShouldBeGuarded="true" AccessPoint="0,-1" Area="-1,0;1,0;-1,1;0,1;1,1;-1,2;0,2;1,2">
+      	<Item href="#n:inline(AdvMapBuilding)" id="item_5A134B02-B51F-4D7F-A2ED-954A0D794069">
+      		<AdvMapBuilding>
+			<Pos>
+  				<x>25</x>
+  				<y>45</y>
+  				<z>0</z>
+  			</Pos>
+  			<Rot>0</Rot>
+  			<Floor>0</Floor>
+  			<Name/>
+  			<CombatScript/>
+  			<pointLights/>
+  			<Shared href="/MapObjects/Hut_Of_Magi.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+  			<PlayerID>PLAYER_2</PlayerID>
+  			<CaptureTrigger>
+  				<Action>
+  					<FunctionName/>
+  				</Action>
+  			</CaptureTrigger>
+  			<GroupID>2</GroupID>
+  			<showCameras/>
+      		</AdvMapBuilding>
+      	</Item>
+    </Object>
+    <Object Name="Hut_Of_Magi3" Value="0" MaxNumber="" Chance="0.0" ShouldBeGuarded="true" AccessPoint="0,-1" Area="-1,0;1,0;-1,1;0,1;1,1;-1,2;0,2;1,2">
+      	<Item href="#n:inline(AdvMapBuilding)" id="item_5A134B02-B51F-4D7F-A2ED-954A0D794069">
+      		<AdvMapBuilding>
+			<Pos>
+  				<x>25</x>
+  				<y>45</y>
+  				<z>0</z>
+  			</Pos>
+  			<Rot>0</Rot>
+  			<Floor>0</Floor>
+  			<Name/>
+  			<CombatScript/>
+  			<pointLights/>
+  			<Shared href="/MapObjects/Hut_Of_Magi.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+  			<PlayerID>PLAYER_2</PlayerID>
+  			<CaptureTrigger>
+  				<Action>
+  					<FunctionName/>
+  				</Action>
+  			</CaptureTrigger>
+  			<GroupID>3</GroupID>
+  			<showCameras/>
+      		</AdvMapBuilding>
+      	</Item>
+    </Object>
+    <Object Name="Dragon_Utopia" ShouldBeGuarded="false" Value="203000" MaxNumber="" Chance="0.3" Area="-3,2;-2,2;-1,2;0,2;1,2;2,2;3,2;4,2;5,2;-3,1;-2,1;-1,1;0,1;1,1;2,1;3,1;4,1;5,1;-3,0;-2,0;-1,0;1,0;2,0;3,0;4,0;5,0;-3,-1;-2,-1;-1,-1;0,-1;1,-1;2,-1;3,-1;4,-1;5,-1;-3,-2;-2,-2;-1,-2;0,-2;1,-2;2,-2;3,-2;4,-2;5,-2;-2,-3;-1,-3;0,-3;1,-3;2,-3;3,-3;4,-3;-2,3;-1,3;0,3;1,3;2,3;3,3;4,3;-1,-4;0,-4;1,-4;2,-4;3,-4;-1,4;0,4;1,4;2,4;3,4">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_EE985D7C-4B2E-47D1-8E2E-737D76997EBD">
+        <AdvMapBuilding>
+          <Pos>
+            <x>18</x>
+            <y>44</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Dragon_Utopia.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="DwarvenWarren" ShouldBeGuarded="true" Value="12750" InitialRotation="1.5708" AccessPoint="0,-2" MaxNumber="" Chance="1.0" Area="-1,1;0,1;1,1;2,1;-1,0;1,0;2,0;-1,-1;0,-1;1,-1;2,-1;-1,2;0,2;1,2;2,2">
+      <Item href="#n:inline(AdvMapDwarvenWarren)" id="item_69AD4965-74EC-4616-9C74-904D14F58A34">
+        <AdvMapDwarvenWarren>
+          <Pos>
+            <x>32</x>
+            <y>61</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/DwarvenWarren.(AdvMapDwarvenWarrenShared).xdb#xpointer(/AdvMapDwarvenWarrenShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <armySlots />
+          <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+        </AdvMapDwarvenWarren>
+      </Item>
+    </Object>
+    <Object Name="LibraryOfEnlightenment" ShouldBeGuarded="true" Value="175950" MaxNumber="" Chance="0.4" AccessPoint="0,-3" Area="-2,1;-1,1;0,1;1,1;2,1;-2,0;-1,0;1,0;2,0;-2,-1;-1,-1;0,-1;1,-1;2,-1;-2,-2;-1,-2;0,-2;1,-2;2,-2;-2,2;-1,2;0,2;1,2;2,2">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_813888A5-EC46-4967-9F8C-627F191A5356">
+        <AdvMapBuilding>
+          <Pos>
+            <x>12</x>
+            <y>36</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/LibraryOfEnlightenment.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Mercenary_Camp" ShouldBeGuarded="true" AccessPoint="0,-1" Value="12000" MaxNumber="" Chance="1.0" Area="0,1;-1,1;-2,1;-2,0;-1,0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_61D5A7B6-0890-455C-9D94-C4E997CB2E93">
+        <AdvMapBuilding>
+          <Pos>
+            <x>42</x>
+            <y>60</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Mercenary_Camp.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="RefugeeCamp" ShouldBeGuarded="true" Value="16000" AccessPoint="-1,-2" Area="0,1;0,2;-1,2;-1,1;-1,0;-1,-1;0,-1" MaxNumber="" Chance="0.7" >
+      <Item href="#n:inline(AdvMapDwelling)" id="item_7B7D0A93-344F-404D-8662-81AFCDD1FD77">
+        <AdvMapDwelling>
+          <Pos>
+            <x>49</x>
+            <y>60</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Special/RefugeeCamp.xdb#xpointer(/AdvMapDwellingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <RandomCreatures>true</RandomCreatures>
+          <creaturesEnabled />
+          <rndSource>RND_NONE</rndSource>
+          <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+          <LinkToTown />
+        </AdvMapDwelling>
+      </Item>
+    </Object>
+    <Object Name="SchoolofMagic" ShouldBeGuarded="true" Value="9000" InitialRotation="4.71239" AccessPoint="-1,-3" Area="-1,1;-1,0;-1,-1;-1,-2;0,1;0,-1;0,-2;1,1;1,0;1,-1;1,-2;-2,1;-2,0;-2,-1;-2,-2;-3,1;-3,0;-3,-1" MaxNumber="" Chance="1.0" >
+      <Item href="#n:inline(AdvMapBuilding)" id="item_C9AEB697-6D52-4EB5-91E5-54B0C423F2DF">
+        <AdvMapBuilding>
+          <Pos>
+            <x>12</x>
+            <y>52</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/SchoolofMagic.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Water_Wheel" ShouldBeGuarded="true" Value="8500" InitialRotation="3.14159" AccessPoint="-1,-2" Area="0,-1;-1,-1;-2,-1;-3,-1;-1,0;-2,0;-3,0" MaxNumber="" Chance="1.0" >
+      <Item href="#n:inline(AdvMapBuilding)" id="item_C42ECC51-B85D-4402-B291-AAC7350B3864">
+        <AdvMapBuilding>
+          <Pos>
+            <x>55</x>
+            <y>59</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Water_Wheel.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="War_Machine_Factory" ShouldBeGuarded="true"  Value="9500" AccessPoint="0,-1" InitialRotation="3.14159" Area="1,0;1,1;1,2;1,3;0,1;0,2;0,3" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_34E1A9B7-32FE-4221-82F9-6F198DF285A1">
+        <AdvMapBuilding>
+          <Pos>
+            <x>61</x>
+            <y>60</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Objects-All-Terra/War_Machine_Factory.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Stables" ShouldBeGuarded="true" Value="23000" AccessPoint="0,-2" Area="0,1;1,1;1,0;1,-1;0,-1" MaxNumber="" Chance="1.0" >
+      <Item href="#n:inline(AdvMapBuilding)" id="item_EACB6E11-667E-41F4-A941-6A3ADDEBD90D">
+        <AdvMapBuilding>
+          <Pos>
+            <x>63</x>
+            <y>58</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Magic_Spring" ShouldBeGuarded="true" Value="60000" AccessPoint="-1,-2" Area="1,-1;1,0;1,1;1,2;0,-1;0,1;0,2;-1,-1;-1,0;-1,1;-1,2;-2,2;-2,1;-2,0;-2,-1" MaxNumber="" Chance="0.65" >
+      <Item href="#n:inline(AdvMapBuilding)" id="item_4CEC6882-B5E8-49B0-9AD8-940199C5DB22">
+        <AdvMapBuilding>
+          <Pos>
+            <x>27</x>
+            <y>60</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Magic_Spring.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="SpellShop" ShouldBeGuarded="true" Value="175950" AccessPoint="0,-1" Area="1,0;-1,0" MaxNumber="" Chance="0.5" >
+      <Item href="#n:inline(AdvMapBuilding)" id="item_3166EBE0-8BDD-4DA9-9405-CE639405CF49">
+        <AdvMapBuilding>
+          <Pos>
+            <x>67</x>
+            <y>58</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/H5A2/SpellShop.xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Arena" ShouldBeGuarded="true" Value="20125" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" >
+      <Item href="#n:inline(AdvMapBuilding)" id="item_75D37FD2-B7CA-454F-8DE6-C9F75EBC27DC">
+        <AdvMapBuilding>
+          <Pos>
+            <x>33</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="House_Of_Astrologer" ShouldBeGuarded="true" Value="18000" AccessPoint="0,-2" InitialRotation="3.14159" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.9" >
+      <Item href="#n:inline(AdvMapBuilding)" id="item_B85FF649-F118-45F7-948C-2FC7C305BBCA">
+        <AdvMapBuilding>
+          <Pos>
+            <x>37</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/H5A2/House_Of_Astrologer.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="DwarvenTreasury" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="15750">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_896F58A8-4859-4FC9-A8A2-D24229E295AB">
+        <AdvMapBuilding>
+          <Pos>
+            <x>42</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/DwarvenTreasury.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Cartographer" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.0" Value="416325">
+      <Item href="#n:inline(AdvMapCartographer)" id="item_D28F46C8-4485-4B20-9FD8-54CFC0F47873">
+        <AdvMapCartographer>
+          <Pos>
+            <x>47</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Cartographer.(AdvMapCartographerShared).xdb#xpointer(/AdvMapCartographerShared)" />
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <Cost>4000</Cost>
+        </AdvMapCartographer>
+      </Item>
+    </Object>
+    <Object Name="Crypt" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="6780">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_1A975112-8BE9-4889-92D4-E995986CB992">
+        <AdvMapBuilding>
+          <Pos>
+            <x>51</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Crypt.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Elemantal_Stockpile" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.8" Value="25000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_1E77F06B-9960-439F-A0CC-473D67560849">
+        <AdvMapBuilding>
+          <Pos>
+            <x>55</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Elemantal_Stockpile.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Fortuitous_Sanctuary" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="9500">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_8F427771-63BF-46B8-8D5F-E9F6634738EB">
+        <AdvMapBuilding>
+          <Pos>
+            <x>28</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/H5A2/RandomSancutuary.xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="GargoyleStonevault" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="6800">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_6AC22322-FDE9-4B60-9B44-3A68AB276D35">
+        <AdvMapBuilding>
+          <Pos>
+            <x>24</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/GargoyleStonevault.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Marletto_Tower" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="7900">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_62764E6F-5EBA-417D-8A9C-C87BB2CE3086">
+        <AdvMapBuilding>
+          <Pos>
+            <x>59</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Marletto_Tower.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Prison" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.8" Value="13000">
+      <Item href="#n:inline(AdvMapPrison)" id="item_26339E87-C71D-402A-9F73-9C60EC215C2B">
+        <AdvMapPrison>
+          <Pos>
+            <x>20</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Prison.(AdvMapPrisonShared).xdb#xpointer(/AdvMapPrisonShared)" />
+          <PrisonedHero />
+          <RandomHero>true</RandomHero>
+        </AdvMapPrison>
+      </Item>
+    </Object>
+    <Object Name="SacrificeAltar" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="9500">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_07FE6336-226F-429A-87F1-25F6619A4775">
+        <AdvMapBuilding>
+          <Pos>
+            <x>63</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/H5A2/SacrificeAltar.xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Sanctuary" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.5" Value="7500">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_41608A3A-3EDF-40A4-9CBD-C4669DD944C0">
+        <AdvMapBuilding>
+          <Pos>
+            <x>67</x>
+            <y>20</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Sanctuary.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="MagiVault" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.8" Value="30000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_205AEAC1-AE3F-4B46-853A-604A0AB9C092">
+        <AdvMapBuilding>
+          <Pos>
+            <x>22</x>
+            <y>15</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/MagiVault.xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Trading_Post" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.75" Value="50000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_840BFA4B-DCEB-4556-B988-17837C21FD6A">
+        <AdvMapBuilding>
+          <Pos>
+            <x>26</x>
+            <y>15</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Trading_Post.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="TombOfTheWarrior" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="160000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_23874E37-D4A8-4094-B601-BF43B802A23F">
+        <AdvMapBuilding>
+          <Pos>
+            <x>31</x>
+            <y>15</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/TombOfTheWarrior.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Tree_of_Knowledge" ShouldBeGuarded="true" AccessPoint="0,-2" InitialRotation="4.71239" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="185000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_0BBFD251-350F-40F4-AE14-4082C70F85B9">
+        <AdvMapBuilding>
+          <Pos>
+            <x>35</x>
+            <y>14</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Tree_of_Knowledge.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="WitchBank" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.8" Value="80000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_7C60E346-3D10-4147-8F45-844E0019E6CD">
+        <AdvMapBuilding>
+          <Pos>
+            <x>49</x>
+            <y>40</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/WitchBank.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Hill_Fort" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.5" Value="280000">
+      <Item href="#n:inline(AdvMapHillFort)" id="item_96C08F17-E48A-4CB8-8292-0556DB182291">
+        <AdvMapHillFort>
+          <Pos>
+            <x>53</x>
+            <y>40</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Hill_Fort.(AdvMapHillFortShared).xdb#xpointer(/AdvMapHillFortShared)" />
+          <CreaturesUpgradesFilter>
+            <ForbiddenBasicUpgradeTiers />
+            <ForbiddenAlterUpgradeTiers />
+            <NotUpgradeable />
+            <ForbiddenUpgrades />
+          </CreaturesUpgradesFilter>
+        </AdvMapHillFort>
+      </Item>
+    </Object>
+    <Object Name="WarAcademy" ShouldBeGuarded="true" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="8900">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_11303271-4A9F-4E0B-B0B6-8B721BFC3E6B">
+        <AdvMapBuilding>
+          <Pos>
+            <x>57</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/WarAcademy.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="TreantThicket" ShouldBeGuarded="false" AccessPoint="0,-2" InitialRotation="1.5708" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.8" Value="91000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_9BEE23C2-DA2B-4397-A539-D885DAE7FE56">
+        <AdvMapBuilding>
+          <Pos>
+            <x>61</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/TreantThicket.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Witch_Hut" ShouldBeGuarded="true" AccessPoint="0,-1" Area="-1,0;1,0;-1,1;0,1;1,1;-1,2;0,2;1,2" MaxNumber="" Chance="1.0" Value="16500">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_AB653F7C-4522-4D05-A106-A72F2005EEB3">
+        <AdvMapBuilding>
+          <Pos>
+            <x>17</x>
+            <y>14</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Witch_Hut.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Pyramid" ShouldBeGuarded="true" AccessPoint="0,-3" Area="-3,4;-2,4;-1,4;0,4;1,4;2,4;3,4;4,4;-3,3;-2,3;-1,3;0,3;1,3;2,3;3,3;4,3;-3,2;-2,2;-1,2;0,2;1,2;2,2;3,2;4,2;-3,1;-2,1;-1,1;0,1;1,1;2,1;3,1;4,1;-3,0;-2,0;-1,0;1,0;2,0;3,0;4,0;-3,-1;-2,-1;-1,-1;0,-1;1,-1;2,-1;3,-1;4,-1;-3,-2;-2,-2;-1,-2;0,-2;1,-2;2,-2;3,-2;4,-2" MaxNumber="" Chance="0.7" Value="91000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_A55F4BFE-26CB-40B9-8D2B-66E8291C5896">
+        <AdvMapBuilding>
+          <Pos>
+            <x>50</x>
+            <y>53</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href="/MapObjects/Pyramid.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras/>
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="SunkenTemple" ShouldBeGuarded="false" Value="203000" MaxNumber="" Chance="0" Area="-1,1;0,2;-1,2;1,0;0,-1;1,-1;0,1;-1,-1;-2,-1;-1,0;-2,3;-2,2;-2,1;-1,3;0,3;2,0;2,-1;3,0;3,-1;-2,-2;-1,-2;0,-2;-2,0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_785B5C8A-AE12-4ab1-8266-31A011B33C3E">
+        <AdvMapBuilding>
+          <Pos>
+            <x>18</x>
+            <y>44</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/SunkenTemple.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Bank_demolish" ShouldBeGuarded="false" Type="new" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1;2,-1;2,0;2,1;2,2;1,2;0,2;-1,2;-2,2;-2,1;-2,0;-2,-1" MaxNumber="" Chance="1.0" Value="15750">
+    	<Item href="#n:inline(AdvMapBuilding)" id="item_9E9D5208-E5A1-4D90-873E-FDA729A97BA4">
+    		<AdvMapBuilding>
+    			<Pos>
+    				<x>30</x>
+    				<y>100</y>
+    				<z>0</z>
+    			</Pos>
+    			<Rot>0</Rot>
+    			<Floor>0</Floor>
+    			<Name/>
+    			<CombatScript/>
+    			<pointLights/>
+    			<Shared href="/MapObjects/Bank_demolish/Crypt.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+    			<PlayerID>PLAYER_NONE</PlayerID>
+    			<CaptureTrigger>
+    				<Action>
+    					<FunctionName/>
+    				</Action>
+    			</CaptureTrigger>
+    			<GroupID>0</GroupID>
+    			<showCameras/>
+    		</AdvMapBuilding>
+    	</Item>
+    </Object>
+    <Object Name="Bank_naga_temple" ShouldBeGuarded="false" Type="new" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="15750">
+       	<Item href="#n:inline(AdvMapBuilding)" id="item_0A233295-3CDB-469E-9611-7E80DA813558">
+       		<AdvMapBuilding>
+       			<Pos>
+       				<x>36</x>
+       				<y>100</y>
+       				<z>0</z>
+       			</Pos>
+       			<Rot>0</Rot>
+       			<Floor>0</Floor>
+       			<Name/>
+       			<CombatScript/>
+       			<pointLights/>
+       			<Shared href="/MapObjects/Bank_naga_temple/Crypt.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+       			<PlayerID>PLAYER_NONE</PlayerID>
+       			<CaptureTrigger>
+       				<Action>
+       					<FunctionName/>
+       				</Action>
+       			</CaptureTrigger>
+       			<GroupID>0</GroupID>
+       			<showCameras/>
+       		</AdvMapBuilding>
+       	</Item>
+     </Object>
+    <Object Name="Bank_unkempt" ShouldBeGuarded="false" Type="new" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="15750">
+       	<Item href="#n:inline(AdvMapBuilding)" id="item_F6698A4C-0F34-4C2B-9F41-B70ADC45AED2">
+       		<AdvMapBuilding>
+       			<Pos>
+       				<x>24</x>
+       				<y>100</y>
+       				<z>0</z>
+       			</Pos>
+       			<Rot>0</Rot>
+       			<Floor>0</Floor>
+       			<Name/>
+       			<CombatScript/>
+       			<pointLights/>
+       			<Shared href="/MapObjects/Bank_unkempt/Crypt.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+       			<PlayerID>PLAYER_NONE</PlayerID>
+       			<CaptureTrigger>
+       				<Action>
+       					<FunctionName/>
+       				</Action>
+       			</CaptureTrigger>
+       			<GroupID>0</GroupID>
+       			<showCameras/>
+       		</AdvMapBuilding>
+       	</Item>
+     </Object>
+  </BattleObjects>  
+  <Enhancers>
+     <Object Name="Dark_knight_new" ShouldBeGuarded="false" Type="new" Area="1,0;0,1;1,1;-1,0;-1,1;1,-1;-1,-1;0,-1" AccessPoint="0,-2" Value="91000" MaxNumber="" Chance="0.8">
+		<Item href="#n:inline(AdvMapDwelling)" id="item_B1250572-57BB-4938-8205-017200603CDC">
+			<AdvMapDwelling>
+				<Pos>
+					<x>57</x>
+					<y>110</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/New_dwellings/Dark_knight_dwell/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+				<PlayerID>PLAYER_NONE</PlayerID>
+				<CaptureTrigger>
+					<Action>
+						<FunctionName/>
+					</Action>
+				</CaptureTrigger>
+				<RandomCreatures>true</RandomCreatures>
+				<creaturesEnabled/>
+				<RndSource>RND_NONE</RndSource>
+				<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+				<LinkToTown/>
+			</AdvMapDwelling>
+		</Item>
+     </Object>
+     <Object Name="Mummy_dwell_new" ShouldBeGuarded="false" Type="new" Area="1,0;0,1;1,1;-1,0;-1,1;1,-1;-1,-1;0,-1" AccessPoint="0,-2" Value="91000" MaxNumber="" Chance="0.8">
+     		<Item href="#n:inline(AdvMapDwelling)" id="item_8025CB37-7210-44BE-9149-8FD4F96EF29A">
+     			<AdvMapDwelling>
+     				<Pos>
+     					<x>61</x>
+     					<y>117</y>
+     					<z>0</z>
+     				</Pos>
+     				<Rot>0</Rot>
+     				<Floor>0</Floor>
+     				<Name/>
+     				<CombatScript/>
+     				<pointLights/>
+     				<Shared href="/MapObjects/New_dwellings/Mummy_dwell/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+     				<PlayerID>PLAYER_NONE</PlayerID>
+     				<CaptureTrigger>
+     					<Action>
+     						<FunctionName/>
+     					</Action>
+     				</CaptureTrigger>
+     				<RandomCreatures>true</RandomCreatures>
+     				<creaturesEnabled/>
+     				<RndSource>RND_NONE</RndSource>
+     				<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+     				<LinkToTown/>
+     			</AdvMapDwelling>
+     		</Item>
+     </Object>
+     <Object Name="Wolf_dwell_new" ShouldBeGuarded="false" Type="new" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="15750">
+     		<Item href="#n:inline(AdvMapDwelling)" id="item_604E5CD7-40CE-4DE1-88D4-C6E74082A4BF">
+     			<AdvMapDwelling>
+     				<Pos>
+     					<x>67</x>
+     					<y>117</y>
+     					<z>0</z>
+     				</Pos>
+     				<Rot>0</Rot>
+     				<Floor>0</Floor>
+     				<Name/>
+     				<CombatScript/>
+     				<pointLights/>
+     				<Shared href="/MapObjects/New_dwellings/Wolf_dwell/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+     				<PlayerID>PLAYER_NONE</PlayerID>
+     				<CaptureTrigger>
+     					<Action>
+     						<FunctionName/>
+     					</Action>
+     				</CaptureTrigger>
+     				<RandomCreatures>true</RandomCreatures>
+     				<creaturesEnabled/>
+     				<RndSource>RND_NONE</RndSource>
+     				<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+     				<LinkToTown/>
+     			</AdvMapDwelling>
+     		</Item>
+     </Object>
+     <Object Name="Fenix_dwell_new" ShouldBeGuarded="false" Type="new" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="1.0" Value="15750">
+     		<Item href="#n:inline(AdvMapDwelling)" id="item_85C27D1A-370C-47A4-B437-A1CDF062C6EF">
+     			<AdvMapDwelling>
+     				<Pos>
+     					<x>61</x>
+     					<y>104</y>
+     					<z>0</z>
+     				</Pos>
+     				<Rot>0</Rot>
+     				<Floor>0</Floor>
+     				<Name/>
+     				<CombatScript/>
+     				<pointLights/>
+     				<Shared href="/MapObjects/New_dwellings/Fenix_dwell/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+     				<PlayerID>PLAYER_NONE</PlayerID>
+     				<CaptureTrigger>
+     					<Action>
+     						<FunctionName/>
+     					</Action>
+     				</CaptureTrigger>
+     				<RandomCreatures>true</RandomCreatures>
+     				<creaturesEnabled/>
+     				<RndSource>RND_NONE</RndSource>
+     				<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+     				<LinkToTown/>
+     			</AdvMapDwelling>
+     		</Item>
+     </Object>
+     <Object Name="Manticore_Cave_new" ShouldBeGuarded="false" Type="new" Area="-1,-2;0,-2;1,-2;-2,-1;-1,-1;0,-1;1,-1;-2,0;-1,0;1,0;-2,1;-1,1;0,1;1,1;-1,2;0,2;1,2;3,0;-3,0;0,3;0,-3;-1,3;-2,2;-3,1;1,3;2,2;3,1;3,-1;2,-2;1,-3;-1,-3;-2,-2;-3,-1" AccessPoint="0,-4" Value="40000" MaxNumber="" Chance="0.75">
+        <Item href="#n:inline(AdvMapDwelling)" id="item_11A329D0-7072-435E-92D1-0C7A69727083">
+        	<AdvMapDwelling>
+        		<Pos>
+        			<x>69</x>
+        			<y>108</y>
+        			<z>0</z>
+        		</Pos>
+        		<Rot>0</Rot>
+        		<Floor>0</Floor>
+        		<Name/>
+        		<CombatScript/>
+        		<pointLights/>
+        		<Shared href="/MapObjects/New_dwellings/Mantikora_dwell/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+        		<PlayerID>PLAYER_NONE</PlayerID>
+        		<CaptureTrigger>
+        			<Action>
+        				<FunctionName/>
+        			</Action>
+        		</CaptureTrigger>
+        		<RandomCreatures>true</RandomCreatures>
+        		<creaturesEnabled/>
+        		<RndSource>RND_NONE</RndSource>
+        		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        		<LinkToTown/>
+        	</AdvMapDwelling>
+        </Item>
+     </Object>
+     <Object Name="Eye_Of_Magi1" ShouldBeGuarded="false" MaxNumber="" Chance="0.0">
+	<Item href="#n:inline(AdvMapBuilding)" id="item_40D5F2AF-D2CE-40BC-B242-F1E43289C52C">
+		<AdvMapBuilding>
+			<Pos>
+				<x>68</x>
+				<y>68</y>
+				<z>0</z>
+                        </Pos>
+			<Rot>0</Rot>
+			<Floor>0</Floor>
+			<Name/>
+			<CombatScript/>
+			<pointLights/>
+			<Shared href="/MapObjects/Eye_Of_Magi.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+			<PlayerID>PLAYER_2</PlayerID>
+			<CaptureTrigger>
+			<Action>
+				<FunctionName/>
+			</Action>
+			</CaptureTrigger>
+			<GroupID>1</GroupID>
+			<showCameras/>
+		</AdvMapBuilding>
+	</Item>
+    </Object>
+    <Object Name="Eye_Of_Magi2" ShouldBeGuarded="false" MaxNumber="" Chance="0.0">
+	<Item href="#n:inline(AdvMapBuilding)" id="item_40D5F2AF-D2CE-40BC-B242-F1E43289C52C">
+		<AdvMapBuilding>
+			<Pos>
+				<x>68</x>
+				<y>68</y>
+				<z>0</z>
+                        </Pos>
+			<Rot>0</Rot>
+			<Floor>0</Floor>
+			<Name/>
+			<CombatScript/>
+			<pointLights/>
+			<Shared href="/MapObjects/Eye_Of_Magi.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+			<PlayerID>PLAYER_2</PlayerID>
+			<CaptureTrigger>
+			<Action>
+				<FunctionName/>
+			</Action>
+			</CaptureTrigger>
+			<GroupID>2</GroupID>
+			<showCameras/>
+		</AdvMapBuilding>
+	</Item>
+    </Object>
+    <Object Name="Eye_Of_Magi3" ShouldBeGuarded="false" MaxNumber="" Chance="0.0">
+	<Item href="#n:inline(AdvMapBuilding)" id="item_40D5F2AF-D2CE-40BC-B242-F1E43289C52C">
+		<AdvMapBuilding>
+			<Pos>
+				<x>68</x>
+				<y>68</y>
+				<z>0</z>
+                        </Pos>
+			<Rot>0</Rot>
+			<Floor>0</Floor>
+			<Name/>
+			<CombatScript/>
+			<pointLights/>
+			<Shared href="/MapObjects/Eye_Of_Magi.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+			<PlayerID>PLAYER_2</PlayerID>
+			<CaptureTrigger>
+			<Action>
+				<FunctionName/>
+			</Action>
+			</CaptureTrigger>
+			<GroupID>3</GroupID>
+			<showCameras/>
+		</AdvMapBuilding>
+	</Item>
+    </Object>
+    <Object Name="Dark_halls" InitialRotation="1.5708" ShouldBeGuarded="false" Type="Old" Area="1,0;0,1;1,1;-1,0;-1,1;1,-1;-1,-1;0,-1" AccessPoint="0,-2" Value="91000" MaxNumber="" Chance="0.8">
+      <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+        <AdvMapDwelling>
+          <Pos>
+            <x>166</x>
+            <y>50</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0.00</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href=".(New_buildings)/Dark_halls/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <RandomCreatures>true</RandomCreatures>
+          <RndSource>RND_PLAYER</RndSource>
+          <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+          <LinkToTown/>
+        </AdvMapDwelling>
+      </Item>
+    </Object>
+    <Object Name="Fire_Lake" ShouldBeGuarded="false" Type="Complex" Area="1,0;0,1;1,1;-1,0;-1,1" AccessPoint="0,-1" Value="300000" MaxNumber="" Chance="0.7">
+      <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+        <AdvMapDwelling>
+          <Pos>
+            <x>166</x>
+            <y>50</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0.00</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href=".(New_buildings)/Fire_stone/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <RandomCreatures>true</RandomCreatures>
+          <RndSource>RND_PLAYER</RndSource>
+          <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+          <LinkToTown/>
+        </AdvMapDwelling>
+      </Item>
+    </Object>
+    <Object Name="Wolf_lair" ShouldBeGuarded="false" Type="Old" Area="-2,-4;0,-4;1,-4;-4,-3;-3,-3;-2,-3;-1,-3;0,-3;1,-3;2,-3;3,-3;-4,-2;-3,-2;-2,-2;-1,-2;0,-2;1,-2;2,-2;3,-2;-5,-1;-4,-1;-3,-1;-2,-1;-1,-1;0,-1;1,-1;2,-1;3,-1;4,-1;-5,0;-4,0;-3,0;-2,0;-1,0;1,0;2,0;3,0;4,0;-5,1;-4,1;-3,1;-2,1;-1,1;0,1;1,1;2,1;3,1;4,1;-5,2;-4,2;-3,2;-2,2;-1,2;0,2;1,2;2,2;3,2;4,2;-4,3;-3,3;-2,3;-1,3;0,3;1,3;2,3;3,3;-4,4;-3,4;-2,4;-1,4;0,4;1,4;2,4;3,4;-2,5;-1,5;0,5;1,5;-1,-4" AccessPoint="0,-5" Value="50000" MaxNumber="" Chance="0.7">
+      <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+        <AdvMapDwelling>
+          <Pos>
+            <x>166</x>
+            <y>50</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0.00</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href=".(New_buildings)/Wolf_lair/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <RandomCreatures>true</RandomCreatures>
+          <RndSource>RND_PLAYER</RndSource>
+          <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+          <LinkToTown/>
+        </AdvMapDwelling>
+      </Item>
+    </Object>
+    <Object Name="Manticore_Cave" InitialRotation="1.5708" ShouldBeGuarded="false" Type="Old" Area="-1,-2;0,-2;1,-2;-2,-1;-1,-1;0,-1;1,-1;-2,0;-1,0;1,0;-2,1;-1,1;0,1;1,1;-1,2;0,2;1,2" AccessPoint="0,-3" Value="40000" MaxNumber="" Chance="0.75">
+      <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+        <AdvMapDwelling>
+          <Pos>
+            <x>166</x>
+            <y>50</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0.00</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href=".(New_buildings)/Manticore_Cave/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <RandomCreatures>true</RandomCreatures>
+          <RndSource>RND_PLAYER</RndSource>
+          <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+          <LinkToTown/>
+        </AdvMapDwelling>
+      </Item>
+    </Object>
+    <Object Name="Mummy_Graves" InitialRotation="4.71239" Type="Complex" Area="1,0;0,1;1,1;-1,0;-1,1" ShouldBeGuarded="false" AccessPoint="0,-1" Value="85000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+        <AdvMapDwelling>
+          <Pos>
+            <x>166</x>
+            <y>50</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0.00</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href=".(New_buildings)/Mummy_Graves/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <RandomCreatures>true</RandomCreatures>
+          <RndSource>RND_PLAYER</RndSource>
+          <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+          <LinkToTown/>
+        </AdvMapDwelling>
+      </Item>
+    </Object>
+    <Object Name="Oasis" ShouldBeGuarded="false" AccessPoint="0,-2" Area="-1,0;1,0;-1,1;0,1;1,1;-1,-1;0,-1;1,-1" MaxNumber="" Chance="0.75" Value="13000">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_7D1060B8-D813-4859-A05E-2D58D567F899">
+        <AdvMapBuilding>
+          <Pos>
+            <x>48</x>
+            <y>45</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href="/MapObjects/Oasis.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras/>
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Skeleton" AccessPoint="0,-1" ShouldBeGuarded="true" Value="40000" MaxNumber="" Chance="0.9">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_3ACBA349-0792-4F76-9CB6-F65BD8D99AD9">
+        <AdvMapBuilding>
+          <Pos>
+            <x>43</x>
+            <y>46</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href="/MapObjects/Skeleton.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras/>
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Wagon" AccessPoint="0,-1" ShouldBeGuarded="true" Value="11000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_B792CDE1-2834-4841-8224-78ABCD638710">
+        <AdvMapBuilding>
+          <Pos>
+            <x>52</x>
+            <y>43</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href="/MapObjects/Wagon.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras/>
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Garden_of_the_Wee_Folk" ShouldBeGuarded="true" Area="-1,0;0,1;-1,1" AccessPoint="0,-1" Value="8000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_5D4BBCC1-887A-4499-8976-FF8A8DFC06BB">
+        <AdvMapBuilding>
+          <Pos>
+            <x>72</x>
+            <y>67</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href="/MapObjects/Mystical_Garden.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName/>
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras/>
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Faerie_Ring" ShouldBeGuarded="true" Area="1,0;0,1;1,1" AccessPoint="0,-1" Value="7000" MaxNumber="" Chance="1.0">
+    <Item href="#n:inline(AdvMapBuilding)" id="item_58AB0C34-7297-4960-AE2A-6C2090A0F345">
+      <AdvMapBuilding>
+        <Pos>
+          <x>69</x>
+          <y>63</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Faerie_Ring.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <GroupID>0</GroupID>
+        <showCameras/>
+      </AdvMapBuilding>
+    </Item>
+    </Object>
+    <Object Name="Crystal_of_Revelation" AccessPoint="0,-1" ShouldBeGuarded="true" Area="1,0;0,1;1,1" Value="7000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_6472CEEC-4CC6-40AC-A9DC-8ECF90FF51D9">
+        <AdvMapBuilding>
+          <Pos>
+            <x>37</x>
+            <y>34</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Garden_Of_Revelation.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Shrine_Of_Magic_2" AccessPoint="0,-1" ShouldBeGuarded="true"  Area="1,0;0,1;1,1" Value="14000" MaxNumber="" Chance="0.85">
+      <Item href="#n:inline(AdvMapShrine)" id="item_ADB96B34-E568-4B97-948B-6AEC55CD767B">
+        <AdvMapShrine>
+          <Pos>
+            <x>40</x>
+            <y>34</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Shrine_Of_Magic_2.(AdvMapShrineShared).xdb#xpointer(/AdvMapShrineShared)" />
+          <SpellID>SPELL_NONE</SpellID>
+        </AdvMapShrine>
+      </Item>
+    </Object>
+    <Object Name="ElementalConflux" AccessPoint="0,-1" ShouldBeGuarded="false" Area="1,0;0,1;1,1" Value="19000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapDwelling)" id="item_3A289A3A-EA63-413B-ACAD-338F875E406C">
+        <AdvMapDwelling>
+          <Pos>
+            <x>45</x>
+            <y>34</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Special/ElementalConflux.xdb#xpointer(/AdvMapDwellingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <RandomCreatures>true</RandomCreatures>
+          <creaturesEnabled />
+          <rndSource>rnd_NONE</rndSource>
+          <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+          <LinkToTown />
+        </AdvMapDwelling>
+      </Item>
+    </Object>
+    <Object Name="Den_Of_Thieves" AccessPoint="0,-1" ShouldBeGuarded="true" Area="1,0;0,1;1,1;-1,-1;2,-1;2,0;2,1;2,2;1,2;0,2;-1,2;-1,1;-1,0" Value="9500" MaxNumber="" Chance="0.8">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_28AB2DAE-85DE-418A-B6FA-754ED18426FB">
+        <AdvMapBuilding>
+          <Pos>
+            <x>52</x>
+            <y>59</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Den_Of_Thieves.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Fountain_Of_Youth" AccessPoint="-1,-2" ShouldBeGuarded="true" Area="-1,0;0,-1;-1,-1" Value="8500" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_D339A0E2-A526-450B-ABC8-53B3AC8E4E4B">
+        <AdvMapBuilding>
+          <Pos>
+            <x>50</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Fountain_Of_Youth.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Temple" AccessPoint="0,-1" ShouldBeGuarded="true" Area="-1,0;0,1;-1,1" Value="9100" MaxNumber="" Chance="0.85">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_7EE5483F-37C7-40E3-8A05-FD1D0C316434">
+        <AdvMapBuilding>
+          <Pos>
+            <x>40</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Temple.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Tavern" AccessPoint="0,-1" ShouldBeGuarded="true" Area="-1,0;0,1;-1,1" Value="7500" MaxNumber="" Chance="1.0">
+       	<Item href="#n:inline(AdvMapBuilding)" id="item_16B2EC49-52B7-4591-8A22-50A06279C329">
+       		<AdvMapBuilding>
+       			<Pos>
+       				<x>58</x>
+       				<y>41</y>
+       				<z>0</z>
+       			</Pos>
+       			<Rot>0</Rot>
+       			<Floor>0</Floor>
+       			<Name/>
+       			<CombatScript/>
+       			<pointLights/>
+       			<Shared href="/MapObjects/Tavern.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+                        <PlayerID>PLAYER_NONE</PlayerID>
+       			<CaptureTrigger>
+       				<Action>
+       					<FunctionName/>
+       				</Action>
+       			</CaptureTrigger>
+       			<GroupID>0</GroupID>
+       			<showCameras/>
+       		</AdvMapBuilding>
+       	</Item>
+    </Object>
+    <Object Name="Windmill" AccessPoint="0,-1" ShouldBeGuarded="true" Area="-1,0;0,1;-1,1" Value="7500" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_12DBD743-3258-4B43-9179-4EC272990315">
+        <AdvMapBuilding>
+          <Pos>
+            <x>37</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Windmill.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Black_Market" AccessPoint="0,-1" ShouldBeGuarded="true" Area="-1,0;0,1;-1,1" Value="100000" MaxNumber="" Chance="0.85">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_1658F686-F366-493A-BC3D-100CAD2758DE">
+        <AdvMapBuilding>
+          <Pos>
+            <x>34</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Shrine_Of_Magic_3" AccessPoint="0,-1" ShouldBeGuarded="true" Area="-1,0;0,1;-1,1" Value="40000" MaxNumber="" Chance="0.8">
+      <Item href="#n:inline(AdvMapShrine)" id="item_68781E02-3B92-48EC-A585-2772F91D2465">
+        <AdvMapShrine>
+          <Pos>
+            <x>43</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Shrine_Of_Magic_3.(AdvMapShrineShared).xdb#xpointer(/AdvMapShrineShared)" />
+          <SpellID>SPELL_NONE</SpellID>
+        </AdvMapShrine>
+      </Item>
+    </Object>
+    <Object Name="Learning_Stone" AccessPoint="0,-1" ShouldBeGuarded="true" Value="7300" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_F2939D69-8C2E-4147-A50B-172C7E0930E5">
+        <AdvMapBuilding>
+          <Pos>
+            <x>31</x>
+            <y>36</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Magic_Well" AccessPoint="0,-1" ShouldBeGuarded="true" Value="15000" MaxNumber="" Chance="0.8">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_7CD1717D-ACA3-4466-8CCE-0182F049F107">
+        <AdvMapBuilding>
+          <Pos>
+            <x>35</x>
+            <y>36</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Fountain_Of_Fortune" AccessPoint="0,-1" ShouldBeGuarded="true" Value="7000" MaxNumber="" Chance="0.8">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_3956816C-D5C9-434E-9FC0-625FDA961833">
+        <AdvMapBuilding>
+          <Pos>
+            <x>37</x>
+            <y>36</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Fountain_Of_Fortune.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="ShamanOfNommads" AccessPoint="0,-1" ShouldBeGuarded="true" Value="8500" MaxNumber="" Chance="0.8">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_FCEF1875-85D3-4D51-B284-063AA37FAF2B">
+        <AdvMapBuilding>
+          <Pos>
+            <x>39</x>
+            <y>36</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/H5A2/ShamanOfNommads.xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Star_Axis" AccessPoint="0,-1" ShouldBeGuarded="true" Value="10000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_15338052-BAF1-4896-90FA-4667D477CA73">
+        <AdvMapBuilding>
+          <Pos>
+            <x>33</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Star_Axis.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Redwood_Observatory" AccessPoint="0,-1" ShouldBeGuarded="true" Value="6800" MaxNumber="" Chance="0.8">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_144EFB62-5B45-4821-B4DD-14A46E2CA32A">
+        <AdvMapBuilding>
+          <Pos>
+            <x>35</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Redwood_Observatory.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Shrine_Of_Magic_1" AccessPoint="0,-1" ShouldBeGuarded="true" Value="8600" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapShrine)" id="item_30E2E0A2-2BC9-4BC3-991F-9B00C45B02A5">
+        <AdvMapShrine>
+          <Pos>
+            <x>37</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Shrine_Of_Magic_1.(AdvMapShrineShared).xdb#xpointer(/AdvMapShrineShared)" />
+          <SpellID>SPELL_NONE</SpellID>
+        </AdvMapShrine>
+      </Item>
+    </Object>
+    <Object Name="Rally_Flag" AccessPoint="0,-1" ShouldBeGuarded="true" Value="7500" MaxNumber="" Chance="0.9">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_BC5DD324-60EE-4746-882E-695BFF510057">
+        <AdvMapBuilding>
+          <Pos>
+            <x>35</x>
+            <y>30</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Rally_Flag.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Idol_Of_Fortune" AccessPoint="0,-1" ShouldBeGuarded="true" Value="8000" MaxNumber="" Chance="0.9">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_3B012AF6-38A7-40CB-8007-4FE1A8AD4980">
+        <AdvMapBuilding>
+          <Pos>
+            <x>32</x>
+            <y>30</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Idol_Of_Fortune.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="SpellMentor" AccessPoint="0,-1" ShouldBeGuarded="true" Value="20000" MaxNumber="" Chance="0.85">
+      <Item href="#n:inline(AdvMapBuilding)" id="item_621C8313-ADAC-4E2C-9D31-A48C63D1BE66">
+        <AdvMapBuilding>
+          <Pos>
+            <x>35</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/H5A2/SpellMentor.xdb#xpointer(/AdvMapBuildingShared)" />
+          <PlayerID>PLAYER_NONE</PlayerID>
+          <CaptureTrigger>
+            <Action>
+              <FunctionName />
+            </Action>
+          </CaptureTrigger>
+          <GroupID>0</GroupID>
+          <showCameras />
+        </AdvMapBuilding>
+      </Item>
+    </Object>
+    <Object Name="Campfire" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_33ED286C-E7D3-4170-BDB9-8BBB9FCDED5E">
+        <AdvMapTreasure>
+          <Pos>
+            <x>21</x>
+            <y>42</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Campfire.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Crystal" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_1F59740E-1613-4093-854C-4FA28898D3FC">
+        <AdvMapTreasure>
+          <Pos>
+            <x>23</x>
+            <y>42</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Crystal.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Gems" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_9B055508-CC55-4D46-8F42-A4E430E4B82C">
+        <AdvMapTreasure>
+          <Pos>
+            <x>25</x>
+            <y>42</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Gems.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Gold" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_1D09D35C-4E72-4975-8D63-87BC5413ED0F">
+        <AdvMapTreasure>
+          <Pos>
+            <x>21</x>
+            <y>38</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Gold.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Mercury" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_3FCCBE0A-8474-4A03-9F92-7857F043132F">
+        <AdvMapTreasure>
+          <Pos>
+            <x>23</x>
+            <y>38</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Mercury.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Ore" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_1B2564FD-77DB-4AE5-9CB7-180CBA43A73D">
+        <AdvMapTreasure>
+          <Pos>
+            <x>25</x>
+            <y>38</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Ore.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Random-Any" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_5EB85DB2-E7CA-4E82-8E53-E95513C457C4">
+        <AdvMapTreasure>
+          <Pos>
+            <x>21</x>
+            <y>34</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Random-Any.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Sulfur" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_7DA5C0CC-79FB-436E-8FE0-3E8C28C19CA2">
+        <AdvMapTreasure>
+          <Pos>
+            <x>25</x>
+            <y>34</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Sulfur.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Chest" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_DA9D8EC9-E414-4117-B54C-0B66301D44BC">
+        <AdvMapTreasure>
+          <Pos>
+            <x>21</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Chest.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+    <Object Name="Wood" ShouldBeGuarded="false" Type="Treasure" Value="6000" MaxNumber="" Chance="1.0">
+      <Item href="#n:inline(AdvMapTreasure)" id="item_3BB2ED0D-F3B4-446D-9602-C3B0F92A6C64">
+        <AdvMapTreasure>
+          <Pos>
+            <x>24</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Wood.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+          <IsCustom>false</IsCustom>
+          <Amount>0</Amount>
+          <MessageFileRef href="" />
+        </AdvMapTreasure>
+      </Item>
+    </Object>
+  </Enhancers>
+  <Other>
+  </Other>
+  <Decoration>
+  </Decoration>
+  <Artifacts>
+    
+    <Object Name="All_Seeing_Crown" Type="Artifacts" MaxNumber="" Chance="1.0" Value="8000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_9E105661-FADB-4391-9051-1AE1952DEE89">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/crown_of_many_eyes.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Armour_Of_Valor" Type="Artifacts" MaxNumber="" Chance="1.0" Value="11000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_BAE1F729-0142-4586-9FAB-7EACDC11CDE1">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Valorous_Armor.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Bearhide_Wraps" Type="Artifacts" MaxNumber="" Chance="1.0" Value="9000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_EE67E350-5C77-4792-A3FC-0EB5B6E970B3">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/BearhideWraps.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="BeginersMagicWand" Type="Artifacts" MaxNumber="" Chance="1.0" Value="10000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_3505E7A6-D1B0-411A-8CC1-77D454CEDD30">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/BeginersMagicStick.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="breastplate_of_eldritch_might" Type="Artifacts" MaxNumber="" Chance="1.0" Value="10000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_ABB8CFD2-31E5-41BF-9B9E-7FBEC423BB8C">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/breastplate_of_petrified_wood.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Cloak_Of_Sylanna" Type="Artifacts" MaxNumber="" Chance="1.0" Value="8000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_61201D23-0A9C-418C-916B-8B2B81DDC7B7">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Rigid_Mantle.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Edge_Of_Balance" Type="Artifacts" MaxNumber="" Chance="1.0" Value="11000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_00DE583D-6EB3-4C84-A08D-635B18481D07">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Edge_Of_Balance.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Elemental_Waistband" Type="Artifacts" MaxNumber="" Chance="1.0" Value="14000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_F21242F6-D7D3-426F-80D5-E106D5A3B492">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Band_of_Conjurer.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Emerald_Slippers" Type="Artifacts" MaxNumber="" Chance="1.0" Value="12000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_D6FE20B2-A03E-47E3-8D84-6980A1388558">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Earthsliders.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="evercold_icicle" Type="Artifacts" MaxNumber="" Chance="1.0" Value="12000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_79285907-35EE-4002-9232-D4E5C9284986">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/evercold_icicle.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="four_leaf_clover" Type="Artifacts" MaxNumber="" Chance="1.0" Value="6000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_3A03A910-22EA-4BBB-B23F-CFB0FE7CC6ED">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/four_leaf_clover.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Helm_of_Chaos" Type="Artifacts" MaxNumber="" Chance="1.0" Value="11000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_8C60673F-0B1A-4756-B0A2-4E252D017721">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Helm_of_Chaos.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="necklace_of_the_lion" Type="Artifacts" MaxNumber="" Chance="1.0" Value="6000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_A187E6D1-5A0A-4FE7-A658-32D5A10749BC">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/necklace_of_bravery.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Necromancers_Helm" Type="Artifacts" MaxNumber="" Chance="1.0" Value="10000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_95EA706A-A469-41DF-BE24-95506A5774C6">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Skull_Helmet.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Phoenix_feather_cape" Type="Artifacts" MaxNumber="" Chance="1.0" Value="12000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_B2527B1D-16B2-41FC-B14E-DB87A162B045">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Phoenix_feather_cape.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="sextant_of_sea_elves" Type="Artifacts" MaxNumber="" Chance="0.0" Value="10000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_6AD269F1-F339-48E0-AC05-077634B16C1C">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/golden_sextant.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="ring_of_lightning_protection" Type="Artifacts" MaxNumber="" Chance="1.0" Value="8000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_CBAB7B29-17F0-403F-B153-AC7E13CA95F6">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/ring_of_lightning_protection.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Ring_of_caution" Type="Artifacts" MaxNumber="" Chance="1.0" Value="9000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_08053C36-C762-441C-AC8A-9C7C13AEEFC5">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Whispering_Ring.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="ring_of_unrepentant" Type="Artifacts" MaxNumber="" Chance="1.0" Value="14000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_A8930E62-C1B5-4314-A8EA-9D18CC8F661E">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Ring_death.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Ring_Of_Unsummoning" Type="Artifacts" MaxNumber="" Chance="1.0" Value="10000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_3B143158-F160-466C-B692-B6349C417516">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Ring_Of_Unsummoning.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="SwordOfMight" Type="Artifacts" MaxNumber="" Chance="1.0" Value="10000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_58F16848-BE02-404B-883F-FCD4F43DCCB2">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/SwordOfRuin.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="TarotDeck" Type="Artifacts" MaxNumber="" Chance="1.0" Value="8000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_58A12336-B650-42C7-B32F-3F7AE4EA4A21">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/TarotDeck.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="trident_of_the_titan`s" Type="Artifacts" MaxNumber="" Chance="1.0" Value="12000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_4D6F9F79-4370-4DA6-A750-0E6443342A11">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/titan`s_trident.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="tunic_of_the_carved_flesh" Type="Artifacts" MaxNumber="" Chance="1.0" Value="9000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_52871B44-1F4C-41C5-9777-3A8519C6C7C4">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Bonestudded_Leather.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Windstrider_Boots" Type="Artifacts" MaxNumber="" Chance="1.0" Value="14000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_6EE69F3B-DD8F-4959-A59A-0A1E7687FB14">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>21</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Boots_of_Swiftness.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Sack_of_Endlessgold" Type="Artifacts" MaxNumber="" Chance="1.0" Value="6000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_E544AAA7-1A83-4640-BD91-1C435CB9AFB4">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Endless_bag_of_gold.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    
+    
+    <Object Name="Axe_Of_The_Mountain_Lords" Type="Artifacts" MaxNumber="" Chance="0.6" Value="25000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_FE24FB0D-000E-447C-8D41-33363405DF28">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Great_axe_of_giant_slaying.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Bag_Of_Endless_Gold" Type="Artifacts" MaxNumber="" Chance="0.6" Value="25000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_A63A5450-1E7D-4E23-A6FC-6818C0730256">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/EndlessSackOfGold.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Book_Of_Power" Type="Artifacts" MaxNumber="" Chance="0.6" Value="22000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_A44243E3-374C-42D4-A561-B116A6269FA8">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Book_Of_Power.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Boots_Of_Magical_Defense" Type="Artifacts" MaxNumber="" Chance="1.0" Value="16000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_824879D5-8FA1-446D-992D-DE09F381B117">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Boots_of_Interference.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Boots_Of_The_Open_Road" Type="Artifacts" MaxNumber="" Chance="0.6" Value="33000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_6EC1DC56-DB45-4F21-885E-AB8AAF6F5AE3">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/wayfarer_boots.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="BootsOfSwiftJourny" Type="Artifacts" MaxNumber="" Chance="0.6" Value="46000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_320D63CD-C713-428A-8340-AEE7443AEB18">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/BootsOfSpeed.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Cape_Of_Lions_Mane" Type="Artifacts" MaxNumber="" Chance="0.6" Value="25000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_AD86F7C6-48A8-4C3D-B4FB-22EEDEAD6C2A">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Lion_hide_cape.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Crown_Of_Leadership" Type="Artifacts" MaxNumber="" Chance="0.6" Value="14000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_37C71160-3CD2-4E75-B63A-1AC8DBFE26DE">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Crown_Of_Leader.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="cursed_ring" Type="Artifacts" MaxNumber="" Chance="0.6" Value="28000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_7C419277-21A2-45DC-8EB5-74B3D4572F66">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Jinxing_Band.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Dragon_bone_greaves" Type="Artifacts" MaxNumber="" Chance="0.6" Value="32000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_E57820A9-9A49-4962-A6C7-4B88E63F6857">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dragon_bone_greaves.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Dragon_eye_ring" Type="Artifacts" MaxNumber="" Chance="0.6" Value="34000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_71C6DA04-769F-4CCF-909D-F0BCC45C26BB">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dragon_eye_ring.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Dragon_teeth_necklace" Type="Artifacts" MaxNumber="" Chance="0.6" Value="36000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_C089AB03-B83A-4278-9820-CEB68C18289F">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dragon_teeth_necklace.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Dragon_flame_tongue" Type="Artifacts" MaxNumber="" Chance="0.6" Value="37000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_0F041163-7E90-4381-92D3-703B819D3221">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dragon_flame_tongue.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Dragon_scale_armor" Type="Artifacts" MaxNumber="" Chance="0.6" Value="38000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_33C94253-74AB-4F93-86CD-11F76DB46406">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dragon_scale_armor.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="DragonscaleShield" Type="Artifacts" MaxNumber="" Chance="0.6" Value="39000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_052B6F45-4FE3-40C4-AACE-EAEEB8078CF0">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/DragonscaleShield.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Dragon_talon_crown" Type="Artifacts" MaxNumber="" Chance="0.6" Value="38000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_AAD5969C-425D-43A1-BE57-8895CDD831AD">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dragon_talon_crown.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Dragon_wing_mantle" Type="Artifacts" MaxNumber="" Chance="0.6" Value="37000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_9E349D64-B62C-4A3B-B9F3-4DC9079EE22A">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dragon_wing_mantle.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="DwarvenSmithyHammer" Type="Artifacts" MaxNumber="" Chance="0.6" Value="38900">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_A07BA47D-6041-4BC3-90A9-B2AAD5C1A8CE">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/DwarvenSmithyHammer.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="golden_horseshoe" Type="Artifacts" MaxNumber="" Chance="0.6" Value="29000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_5222FD36-BD04-4CF2-A8E3-6D7647126BE5">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>35</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/golden_horseshoe.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Horn_Of_Plenty" Type="Artifacts" MaxNumber="" Chance="0.6" Value="20000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_1ECE31E7-5717-4FB0-AC33-464F5EE52BB0">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Horn_Of_Plenty.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="ScrollOfSpell" Type="Artifacts" MaxNumber="" Chance="0.6" Value="15000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_8D2D4B14-6D47-4FC6-BF0C-1F84C69C1093">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/ScrollOfSpell.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Moonblade" Type="Artifacts" MaxNumber="" Chance="0.6" Value="15000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_85900C2E-918C-4F27-8F2B-C60521181EA9">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Moonblade.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="necklace_of_the_bloody_claw" Type="Artifacts" MaxNumber="" Chance="0.6" Value="19000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_EC59413F-D66A-4499-87AF-BF565DE32F39">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/werewolf_claw_necklace.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="necklace_of_victory" Type="Artifacts" MaxNumber="" Chance="0.6" Value="25000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_56A2B112-8897-49FB-B63C-15CEA09C5586">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/necklace_of_power.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="OgreClub" Type="Artifacts" MaxNumber="" Chance="0.6" Value="30000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_39DD5F56-690B-4DE4-A863-5875FE1A7312">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/OgreClub.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="OgreShield" Type="Artifacts" MaxNumber="" Chance="0.6" Value="30000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_1AA6C785-BF9D-4CF4-9040-ED6111E388D4">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/OgreShield.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="RuneOfFlame" Type="Artifacts" MaxNumber="" Chance="0.5" Value="19000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_AD619F9F-44C1-438A-B462-16F4C8224071">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/RuneOfFlame.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="RunicWarAxe" Type="Artifacts" MaxNumber="" Chance="0.6" Value="25000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_A0C4C6EC-4354-4013-BB35-89484F77BBD9">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/RunicWarAxe.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="RunicWarHarness" Type="Artifacts" MaxNumber="" Chance="0.6" Value="25000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_5C63A01F-8BDF-45EA-BF37-1E0C6B783774">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/RunicWarHarness.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Ring_of_Celerity" Type="Artifacts" MaxNumber="" Chance="0.6" Value="29000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_CB7E1F03-5EA5-4E09-A661-443C902CB6AB">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Ring_of_Celerity.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="turban_of_enlightenment" Type="Artifacts" MaxNumber="" Chance="0.7" Value="16000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_B803F3D0-0B04-42AB-BB7F-1653EE72AAA9">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Helm_of_enlightenment.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="UnicornHornBow" Type="Artifacts" MaxNumber="" Chance="0.55" Value="49000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_3DA17003-4D24-4C14-944E-25A5894DF172">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/UnicornHornBow.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="wand_of_x" Type="Artifacts" MaxNumber="" Chance="0.6" Value="13000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_FC8633F2-390E-45E2-BDC9-AC114B563A20">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>21</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/wand_of_x.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="ring_of_broken_will" Type="Artifacts" MaxNumber="" Chance="0.6" Value="22000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_0D10D991-C921-44B1-81B7-C4BCB695F1A8">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/nightmarish_ring.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="RingOfVitality" Type="Artifacts" MaxNumber="" Chance="0.6" Value="19000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_6D6434C5-1D77-47B6-9874-AEF86F7F8E1A">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/RingOfLife.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="scale_mail_of_enlightenment" Type="Artifacts" MaxNumber="" Chance="0.65" Value="25000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_CD0942E7-1526-400C-9C14-ED03B2FF3A45">
+        <AdvMapArtifact>
+          <Pos>
+            <x>36</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Chain_mail_of_enlightenment.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="sheild_of_crystal_ice" Type="Artifacts" MaxNumber="" Chance="0.6" Value="23000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_E35205EA-4A33-4FD2-B7D8-D508731A0A26">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/iceberg_shield.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Treeborn_Quiver" Type="Artifacts" MaxNumber="" Chance="0.6" Value="19000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_B0F272BA-0D9F-4BC2-A7D4-D898538D9EEB">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Treeborn_Quiver.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    
+    
+    <Object Name="Amulet_Of_Necromancy" Type="Artifacts" MaxNumber="" Chance="0.05" Value="18000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_3FCDBFE8-DD89-4E4A-9CD2-CEF7BD944126">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Necro_pedant.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Armour_Of_The_Forgotten_hero" Type="Artifacts" MaxNumber="" Chance="0.1" Value="420000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_7EF60F32-9328-4F78-B685-0EAA9DC0D68E">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>41</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/PlateMailOfStability.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="BootsOfLevitation" Type="Artifacts" MaxNumber="" Chance="0.0" Value="200000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_55BC25D0-FF0D-4739-9B95-FAB04D3992B4">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/BootsOfLevitation.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Cloak_of_deaths_shadow" Type="Artifacts" MaxNumber="" Chance="0.1" Value="290000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_7B48FA7D-D5DF-4A7A-8FBF-A543F4B29512">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>39</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Cloak_of_Mourning.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Crown_of_sar-issus" Type="Artifacts" MaxNumber="" Chance="0.1" Value="320000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_BAFA2B1E-B314-45DC-99E0-CC4D8E3E9857">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Crown_of_magi.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="cuirass_of_the_dwarven_kings" Type="Artifacts" MaxNumber="" Chance="0.1" Value="370000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_27D43240-C5A2-4D58-A469-DF54BEBAE031">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>37</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dwarven_mithral_cuirass.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="greaves_of_the_dwarven_king" Type="Artifacts" MaxNumber="" Chance="0.1" Value="340000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_B7186F29-6472-4DD1-B8CC-3BBE1266CBBA">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dwarven_mithral_greaves.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="helm_of_the_dwarven_king" Type="Artifacts" MaxNumber="" Chance="0.1" Value="340000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_984CFC6B-44F5-476C-81AB-8F827B52CAFE">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dwarven_mithral_helmet.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Lion_Crown" Type="Artifacts" MaxNumber="" Chance="0.1" Value="260000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_997674CD-AF6C-4A40-B4FD-C92A14E354FA">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/crown_of_courage.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Mask_Of_Equity" Type="Artifacts" MaxNumber="" Chance="0.1" Value="440000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_C18C671B-06D4-4DB4-A6D3-590CBB172A00">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>33</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Mask_Of_Doppelganger.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="pendant_of_conflux" Type="Artifacts" MaxNumber="" Chance="0.1" Value="320000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_1EA8146C-5A4E-4B9E-A539-1E1FC79CFBF5">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Twisted_Neither.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="pendant_of_mastery" Type="Artifacts" MaxNumber="" Chance="0.1" Value="400000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_399C78FD-7E59-4AA9-A21F-7212CCE05398">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>31</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/pendant_of_mastery.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Ring_Of_Machine_Affinity" Type="Artifacts" MaxNumber="" Chance="0.1" Value="420000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_FC7C6113-AA4C-430A-B923-42CC18AC2B59">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A2/Ring_Of_Machine.xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Ring_of_sar-issus" Type="Artifacts" MaxNumber="" Chance="0.1" Value="250000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_21B5E14C-BF22-4DB2-81C6-706B458D836B">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Ring_ofmagi.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="ring_of_speed" Type="Artifacts" MaxNumber="" Chance="0.03" Value="690000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_72264D09-6F7F-44EF-B6F2-070540FDF37C">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>29</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/ring_of_haste.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Robe_of_sar-issus" Type="Artifacts" MaxNumber="" Chance="0.05" Value="400000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_89416A55-DD6C-4996-98D8-22E80ECE381B">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Robe_of_magi.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Sandals_of_the_blessed" Type="Artifacts" MaxNumber="" Chance="0.1" Value="320000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_C846896D-1C5E-4E99-8FC8-209ED8D950C5">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Sandals_of_the_saint.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="sandros_cloak" Type="Artifacts" MaxNumber="" Chance="0.2" Value="400000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_791E5C6B-E285-4876-9DF7-76115822B086">
+        <AdvMapArtifact>
+          <Pos>
+            <x>34</x>
+            <y>27</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/SHawl_of_the_great_lich.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="ShacklesOfTheLastMan" Type="Artifacts" MaxNumber="" Chance="0.2" Value="490000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_0F9CA63D-563B-4371-BAF0-C11C2CAB8909">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/ShacklesOfWar.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="shield_of_the_dwarven_king" Type="Artifacts" MaxNumber="" Chance="0.1" Value="340000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_2CBE2EF5-5BD4-41E2-8C21-7C0FE1FECE59">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Dwarven_mithral_shield.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="SkullOfMarkal" Type="Artifacts" MaxNumber="" Chance="0.1" Value="480000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_15FF70EE-DA7E-4199-BBC2-3DF667EFDF0B">
+        <AdvMapArtifact>
+          <Pos>
+            <x>28</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/ScullOfMarkal.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="Staff_of_sar-issus" Type="Artifacts" MaxNumber="" Chance="0.25" Value="400000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_DA0C5894-40B3-41D3-82DE-BB9E51D26637">
+        <AdvMapArtifact>
+          <Pos>
+            <x>30</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/Staff_of_magi.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="staff_of_the_netherworld" Type="Artifacts" MaxNumber="" Chance="0.03" Value="690000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_1F09FEA4-B277-4CD8-9618-2CE489E57A18">
+        <AdvMapArtifact>
+          <Pos>
+            <x>32</x>
+            <y>25</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/staff_of_vexing.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="TomeOfDarkMagic" Type="Artifacts" MaxNumber="" Chance="0.15" Value="500000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_8A62AC76-F487-49C8-B8E7-056982D5488E">
+        <AdvMapArtifact>
+          <Pos>
+            <x>20</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/TomeOfDarkMagic.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="TomeOfDestruction" Type="Artifacts" MaxNumber="" Chance="0.15" Value="500000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_5E390DA8-8D83-4762-AFB8-77AD566C357D">
+        <AdvMapArtifact>
+          <Pos>
+            <x>22</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/TomeOfDestruction.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="TomeOfLightMagic" Type="Artifacts" MaxNumber="" Chance="0.15" Value="500000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_0905B750-A4E9-4723-B184-7ABD7FE56D72">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/TomeOfLightMagic.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="TomeOfSummoningMagic" Type="Artifacts" MaxNumber="" Chance="0.15" Value="500000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_F315EDFE-7943-405F-B581-CCEFB718E167">
+        <AdvMapArtifact>
+          <Pos>
+            <x>26</x>
+            <y>23</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/H5A1/TomeOfSummoningMagic.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    <Object Name="AngelWings" Type="Artifacts" MaxNumber="" Chance="0.0" Value="900000">
+      <Item href="#n:inline(AdvMapArtifact)" id="item_A92C08DC-4EA7-4E0E-B772-C63945004BB8">
+        <AdvMapArtifact>
+          <Pos>
+            <x>24</x>
+            <y>21</y>
+            <z>0</z>
+          </Pos>
+          <Rot>0</Rot>
+          <Floor>0</Floor>
+          <Name />
+          <CombatScript />
+          <pointLights />
+          <Shared href="/MapObjects/Artifacts/AngelWings.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+          <armySlots />
+          <MessageFileRef href="" />
+          <spellID>SPELL_NONE</spellID>
+          <RandomShiftRadius>0</RandomShiftRadius>
+          <untransferable>false</untransferable>
+        </AdvMapArtifact>
+      </Item>
+    </Object>
+    
+  </Artifacts>
+</objects>

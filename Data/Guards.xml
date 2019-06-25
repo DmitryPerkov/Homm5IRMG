@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Guards>
+  <Object Value="12" Type="Guard">
+    <Item href="#n:inline(AdvMapMonster)" id="item_3F813B8E-5B61-48A8-A63A-BF47C311FD13">
+      <AdvMapMonster>
+        <Pos>
+          <x>37</x>
+          <y>98</y>
+          <z>0</z>
+        </Pos>
+        <Rot>1.5708</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Random/Random-Monster-L3.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+        <Custom>true</Custom>
+        <Amount>20</Amount>
+        <Amount2>0</Amount2>
+        <AttackType>ATTACK_ANY</AttackType>
+        <MoveType>MOVE_ANY</MoveType>
+        <DoesNotGrow>false</DoesNotGrow>
+        <MessageFileRef href=""/>
+        <Script/>
+        <Resources>
+          <Wood>0</Wood>
+          <Ore>0</Ore>
+          <Mercury>0</Mercury>
+          <Crystal>0</Crystal>
+          <Sulfur>0</Sulfur>
+          <Gem>0</Gem>
+          <Gold>0</Gold>
+        </Resources>
+        <ArtifactID>ARTIFACT_NONE</ArtifactID>
+        <Mood>MONSTER_MOOD_AGGRESSIVE</Mood>
+        <Courage>MONSTER_COURAGE_ALWAYS_FIGHT</Courage>
+        <AllowQuickCombat>true</AllowQuickCombat>
+        <DoesNotDependOnDifficulty>false</DoesNotDependOnDifficulty>
+        <AdditionalStacks>
+          <Item>
+            <Creature>CREATURE_STALKER</Creature>
+            <CustomAmount>true</CustomAmount>
+            <Amount>5</Amount>
+            <Amount2>5</Amount2>
+          </Item>
+        </AdditionalStacks>
+        <SingleMonsterNameFileRef href=""/>
+        <MultipleMonstersNameFileRef href=""/>
+        <RacesRandomGroupID>0</RacesRandomGroupID>
+        <relationsOverrides/>
+      </AdvMapMonster>
+    </Item>
+  </Object>
+  <Object Value="12" Type="Guard">
+    <Item href="#n:inline(AdvMapMonster)" id="item_A190786E-DEE3-4A8B-8359-A3B8CC5D8327">
+      <AdvMapMonster>
+        <Pos>
+          <x>22</x>
+          <y>120</y>
+          <z>0</z>
+        </Pos>
+        <Rot>6.28319</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Academy/Titan.xdb#xpointer(/AdvMapMonsterShared)"/>
+        <Custom>true</Custom>
+        <Amount>5</Amount>
+        <Amount2>10</Amount2>
+        <AttackType>ATTACK_ANY</AttackType>
+        <MoveType>MOVE_ANY</MoveType>
+        <DoesNotGrow>true</DoesNotGrow>
+        <MessageFileRef href=""/>
+        <Script/>
+        <Resources>
+          <Wood>0</Wood>
+          <Ore>0</Ore>
+          <Mercury>0</Mercury>
+          <Crystal>0</Crystal>
+          <Sulfur>0</Sulfur>
+          <Gem>0</Gem>
+          <Gold>0</Gold>
+        </Resources>
+        <ArtifactID>ARTIFACT_NONE</ArtifactID>
+        <Mood>MONSTER_MOOD_AGGRESSIVE</Mood>
+        <Courage>MONSTER_COURAGE_ALWAYS_FIGHT</Courage>
+        <AllowQuickCombat>true</AllowQuickCombat>
+        <DoesNotDependOnDifficulty>false</DoesNotDependOnDifficulty>
+        <AdditionalStacks>
+          <Item>
+            <Creature>CREATURE_STORM_LORD</Creature>
+            <CustomAmount>true</CustomAmount>
+            <Amount>1</Amount>
+            <Amount2>1</Amount2>
+          </Item>
+        </AdditionalStacks>
+        <SingleMonsterNameFileRef href=""/>
+        <MultipleMonstersNameFileRef href=""/>
+        <RacesRandomGroupID>0</RacesRandomGroupID>
+        <relationsOverrides/>
+      </AdvMapMonster>
+    </Item>
+  </Object>
+  <Object Value="12" Type="Guard">
+    <Item href="#n:inline(AdvMapMonster)" id="item_F709C41B-417D-42EF-9D1B-F2941BB61CD4">
+      <AdvMapMonster>
+        <Pos>
+          <x>23</x>
+          <y>106</y>
+          <z>0</z>
+        </Pos>
+        <Rot>4.71239</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Academy/Combat_Mage.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+        <Custom>true</Custom>
+        <Amount>20</Amount>
+        <Amount2>25</Amount2>
+        <AttackType>ATTACK_ANY</AttackType>
+        <MoveType>MOVE_ANY</MoveType>
+        <DoesNotGrow>true</DoesNotGrow>
+        <MessageFileRef href=""/>
+        <Script/>
+        <Resources>
+          <Wood>0</Wood>
+          <Ore>0</Ore>
+          <Mercury>0</Mercury>
+          <Crystal>0</Crystal>
+          <Sulfur>0</Sulfur>
+          <Gem>0</Gem>
+          <Gold>0</Gold>
+        </Resources>
+        <ArtifactID>ARTIFACT_NONE</ArtifactID>
+        <Mood>MONSTER_MOOD_AGGRESSIVE</Mood>
+        <Courage>MONSTER_COURAGE_ALWAYS_FIGHT</Courage>
+        <AllowQuickCombat>true</AllowQuickCombat>
+        <DoesNotDependOnDifficulty>false</DoesNotDependOnDifficulty>
+        <AdditionalStacks/>
+        <SingleMonsterNameFileRef href=""/>
+        <MultipleMonstersNameFileRef href=""/>
+        <RacesRandomGroupID>0</RacesRandomGroupID>
+        <relationsOverrides/>
+      </AdvMapMonster>
+    </Item>
+  </Object>
+  <Object Value="12" Type="Guard">
+    <Item href="#n:inline(AdvMapMonster)" id="item_39F1D993-0E7A-42F2-A479-BAFDA206BCF8">
+      <AdvMapMonster>
+        <Pos>
+          <x>20</x>
+          <y>109</y>
+          <z>0</z>
+        </Pos>
+        <Rot>3.14159</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Academy/Giant.xdb#xpointer(/AdvMapMonsterShared)"/>
+        <Custom>true</Custom>
+        <Amount>10</Amount>
+        <Amount2>15</Amount2>
+        <AttackType>ATTACK_ANY</AttackType>
+        <MoveType>MOVE_ANY</MoveType>
+        <DoesNotGrow>true</DoesNotGrow>
+        <MessageFileRef href=""/>
+        <Script/>
+        <Resources>
+          <Wood>0</Wood>
+          <Ore>0</Ore>
+          <Mercury>0</Mercury>
+          <Crystal>0</Crystal>
+          <Sulfur>0</Sulfur>
+          <Gem>0</Gem>
+          <Gold>0</Gold>
+        </Resources>
+        <ArtifactID>ARTIFACT_NONE</ArtifactID>
+        <Mood>MONSTER_MOOD_AGGRESSIVE</Mood>
+        <Courage>MONSTER_COURAGE_ALWAYS_FIGHT</Courage>
+        <AllowQuickCombat>true</AllowQuickCombat>
+        <DoesNotDependOnDifficulty>false</DoesNotDependOnDifficulty>
+        <AdditionalStacks/>
+        <SingleMonsterNameFileRef href=""/>
+        <MultipleMonstersNameFileRef href=""/>
+        <RacesRandomGroupID>0</RacesRandomGroupID>
+        <relationsOverrides/>
+      </AdvMapMonster>
+    </Item>
+  </Object>
+  <Object Value="12" Type="Guard">
+    <Item href="#n:inline(AdvMapMonster)" id="item_3B4218D7-978D-4995-B2BA-CB748CE2CCFE">
+      <AdvMapMonster>
+        <Pos>
+          <x>27</x>
+          <y>113</y>
+          <z>0</z>
+        </Pos>
+        <Rot>4.71239</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Academy/Magi.xdb#xpointer(/AdvMapMonsterShared)"/>
+        <Custom>true</Custom>
+        <Amount>10</Amount>
+        <Amount2>15</Amount2>
+        <AttackType>ATTACK_ANY</AttackType>
+        <MoveType>MOVE_ANY</MoveType>
+        <DoesNotGrow>true</DoesNotGrow>
+        <MessageFileRef href=""/>
+        <Script/>
+        <Resources>
+          <Wood>0</Wood>
+          <Ore>0</Ore>
+          <Mercury>0</Mercury>
+          <Crystal>0</Crystal>
+          <Sulfur>0</Sulfur>
+          <Gem>0</Gem>
+          <Gold>0</Gold>
+        </Resources>
+        <ArtifactID>ARTIFACT_NONE</ArtifactID>
+        <Mood>MONSTER_MOOD_AGGRESSIVE</Mood>
+        <Courage>MONSTER_COURAGE_ALWAYS_FIGHT</Courage>
+        <AllowQuickCombat>true</AllowQuickCombat>
+        <DoesNotDependOnDifficulty>false</DoesNotDependOnDifficulty>
+        <AdditionalStacks>
+          <Item>
+            <Creature>CREATURE_COMBAT_MAGE</Creature>
+            <CustomAmount>true</CustomAmount>
+            <Amount>5</Amount>
+            <Amount2>5</Amount2>
+          </Item>
+        </AdditionalStacks>
+        <SingleMonsterNameFileRef href=""/>
+        <MultipleMonstersNameFileRef href=""/>
+        <RacesRandomGroupID>0</RacesRandomGroupID>
+        <relationsOverrides/>
+      </AdvMapMonster>
+    </Item>
+  </Object>
+  <Object Value="12" Type="Guard">
+    <Item href="#n:inline(AdvMapMonster)" id="item_E29BB4EA-1BC5-4C89-8F76-9B9767EF43B0">
+      <AdvMapMonster>
+        <Pos>
+          <x>20</x>
+          <y>115</y>
+          <z>0</z>
+        </Pos>
+        <Rot>1.5708</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Academy/Obsidian_Golem.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+        <Custom>true</Custom>
+        <Amount>100</Amount>
+        <Amount2>200</Amount2>
+        <AttackType>ATTACK_ANY</AttackType>
+        <MoveType>MOVE_ANY</MoveType>
+        <DoesNotGrow>true</DoesNotGrow>
+        <MessageFileRef href=""/>
+        <Script/>
+        <Resources>
+          <Wood>0</Wood>
+          <Ore>0</Ore>
+          <Mercury>0</Mercury>
+          <Crystal>0</Crystal>
+          <Sulfur>0</Sulfur>
+          <Gem>0</Gem>
+          <Gold>0</Gold>
+        </Resources>
+        <ArtifactID>ARTIFACT_NONE</ArtifactID>
+        <Mood>MONSTER_MOOD_AGGRESSIVE</Mood>
+        <Courage>MONSTER_COURAGE_ALWAYS_FIGHT</Courage>
+        <AllowQuickCombat>true</AllowQuickCombat>
+        <DoesNotDependOnDifficulty>false</DoesNotDependOnDifficulty>
+        <AdditionalStacks/>
+        <SingleMonsterNameFileRef href=""/>
+        <MultipleMonstersNameFileRef href=""/>
+        <RacesRandomGroupID>0</RacesRandomGroupID>
+        <relationsOverrides/>
+      </AdvMapMonster>
+    </Item>
+  </Object>
+</Guards>

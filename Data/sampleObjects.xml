@@ -1,0 +1,46 @@
+﻿,<?xml version="1.0" encoding="utf-8" ?>
+<Objects>
+    <Item href="#n:inline(AdvMapStatic)" id="item_5653D9ED-9764-49A9-BF15-9BC93BF4BF4C">
+      <AdvMapStatic>
+        <Pos>
+          <x>1</x>
+          <y>1</y>
+          <z>0</z>
+        </Pos>
+        <Rot>6.28319</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Grass/Combat_Arena/Grave02.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+        <IsRemovable>false</IsRemovable>
+        <TerrainAligned>false</TerrainAligned>
+        <ScalePercent>100</ScalePercent>
+      </AdvMapStatic>
+    </Item>
+  <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+    <AdvMapDwelling>
+      <Pos>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Pos>
+      <Rot>6.28319</Rot>
+      <Floor>0</Floor>
+      <Name/>
+      <CombatScript/>
+      <pointLights/>
+      <Shared href=".(New_buildings)/Fire_stone/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName/>
+        </Action>
+      </CaptureTrigger>
+      <RandomCreatures>true</RandomCreatures>
+      <RndSource>RND_PLAYER</RndSource>
+      <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      <LinkToTown/>
+    </AdvMapDwelling>
+  </Item>
+</Objects>

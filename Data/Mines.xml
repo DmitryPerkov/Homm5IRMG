@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Objects>
+  <Object Name="Abandoned_Mine" Type="Mine" Area="-1,-1;0,-1;1,-1;1,0;1,1;0,1;-1,1;-1,0" AccessPoint ="0,-2">
+    <Item href="#n:inline(AdvMapAbanMine)" id="item_831949F8-CA5A-4BB1-83D2-324B4280969B">
+      <AdvMapAbanMine>
+        <Pos>
+          <x>4</x>
+          <y>171</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Abandoned_Mine.(AdvMapAbanMineShared).xdb#xpointer(/AdvMapAbanMineShared)" />
+        <AvailableResources>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>1</Item>
+          <Item>1</Item>
+          <Item>1</Item>
+          <Item>1</Item>
+          <Item>1</Item>
+        </AvailableResources>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName />
+          </Action>
+        </CaptureTrigger>
+      </AdvMapAbanMine>
+    </Item>
+  </Object>
+  <Object Name="Alchemist_Lab" Type="Mine" Area="-1,-1;0,-1;1,-1;1,0;1,1;0,1;-1,1;-1,0" AccessPoint ="0,2">
+    <Item href="#n:inline(AdvMapMine)" id="item_8047A3D3-58F2-4375-ADFA-46BF327E4D81">
+      <AdvMapMine>
+        <Pos>
+          <x>9</x>
+          <y>170</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Alchemist_Lab.(AdvMapMineShared).xdb#xpointer(/AdvMapMineShared)" />
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName />
+          </Action>
+        </CaptureTrigger>
+        <armySlots />
+        <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+      </AdvMapMine>
+    </Item>
+  </Object>
+  <Object Name="Crystal_Cavern" Type="Mine" Area="-1,-1;0,-1;1,-1;1,0;1,1;0,1;-1,1;-1,0" AccessPoint ="0,-2">
+    <Item href="#n:inline(AdvMapMine)" id="item_05C53DBC-8AB4-4032-964A-2A4821FEAB67">
+      <AdvMapMine>
+        <Pos>
+          <x>4</x>
+          <y>166</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Crystal_Cavern.(AdvMapMineShared).xdb#xpointer(/AdvMapMineShared)" />
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName />
+          </Action>
+        </CaptureTrigger>
+        <armySlots />
+        <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+      </AdvMapMine>
+    </Item>
+  </Object>
+  <Object Name="Gem_Pond" Type="Mine" Area="0,1;-1,1;-1,0"  AccessPoint ="0,-1">
+    <Item href="#n:inline(AdvMapMine)" id="item_17070EA8-41E0-4E33-9C85-16507225DA25">
+      <AdvMapMine>
+        <Pos>
+          <x>10</x>
+          <y>165</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Gem_Pond.(AdvMapMineShared).xdb#xpointer(/AdvMapMineShared)" />
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName />
+          </Action>
+        </CaptureTrigger>
+        <armySlots />
+        <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+      </AdvMapMine>
+    </Item>
+  </Object>
+  <Object Name="Gold_Mine" Type="Mine" Area="-1,-1;0,-1;1,-1;1,0;1,1;0,1;-1,1;-1,0" AccessPoint ="0,-2">
+    <Item href="#n:inline(AdvMapMine)" id="item_6ACCEF02-7E5E-4F6E-A897-E1B1A64D30BA">
+      <AdvMapMine>
+        <Pos>
+          <x>14</x>
+          <y>166</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Gold_Mine.(AdvMapMineShared).xdb#xpointer(/AdvMapMineShared)" />
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName />
+          </Action>
+        </CaptureTrigger>
+        <armySlots />
+        <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+      </AdvMapMine>
+    </Item>
+  </Object>
+  <Object Name="Ore_Pit" Type="Mine" Area="-1,-1;0,-1;1,-1;1,0;1,1;0,1;-1,1;-1,0;-1,2;0,2;1,2" AccessPoint ="0,-2">
+    <Item href="#n:inline(AdvMapMine)" id="item_CF429EF8-89FB-4F52-8C22-D5A368939B74">
+      <AdvMapMine>
+        <Pos>
+          <x>4</x>
+          <y>159</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Ore_Pit.(AdvMapMineShared).xdb#xpointer(/AdvMapMineShared)" />
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName />
+          </Action>
+        </CaptureTrigger>
+        <armySlots />
+        <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+      </AdvMapMine>
+    </Item>
+  </Object>
+  <Object Name="Sawmill" Type="Mine" Area="-1,-1;0,-1;1,-1;1,0;1,1;0,1;-1,1;-1,0" AccessPoint ="0,-2">
+    <Item href="#n:inline(AdvMapMine)" id="item_0526B035-C08F-4A2E-A60E-AFC98083D14D">
+      <AdvMapMine>
+        <Pos>
+          <x>10</x>
+          <y>160</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Sawmill.(AdvMapMineShared).xdb#xpointer(/AdvMapMineShared)" />
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName />
+          </Action>
+        </CaptureTrigger>
+        <armySlots />
+        <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+      </AdvMapMine>
+    </Item>
+  </Object>
+  <Object Name="Sulfur_Dune" Type="Mine" Area="-1,-1;0,-1;1,-1;1,0;1,1;0,1;-1,1;-1,0;-1,2;0,2;1,2" AccessPoint ="0,-2">
+    <Item href="#n:inline(AdvMapMine)" id="item_F2459D66-F888-43C9-A502-F4D7920F91DF">
+      <AdvMapMine>
+        <Pos>
+          <x>14</x>
+          <y>159</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Sulfur_Dune.(AdvMapMineShared).xdb#xpointer(/AdvMapMineShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <armySlots/>
+        <CreatureSwapBlockedForAI>false</CreatureSwapBlockedForAI>
+      </AdvMapMine>
+    </Item>
+  </Object>
+</Objects>

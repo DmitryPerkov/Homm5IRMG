@@ -1,0 +1,2065 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Objects>
+<Object Name="RandomTown" AccessPoint ="1,-5"  Area="0,-6;1,-6;2,-6,3,-6;5,-3;5,-4;4,-5;4,-4;-1,-5;-3,-3;-2,-4;-2,-5;0,-5;1,-5;2,-5;3,-5;-3,2;-2,2;-1,2;0,2;1,2;2,2;3,2;4,2;5,2;-3,1;-2,1;-1,1;0,1;1,1;2,1;3,1;4,1;5,1;-3,0;-2,0;-1,0;1,0;2,0;3,0;4,0;5,0;-3,-1;-2,-1;-1,-1;0,-1;1,-1;2,-1;3,-1;4,-1;5,-1;-3,-2;-2,-2;-1,-2;0,-2;1,-2;2,-2;3,-2;4,-2;5,-2;-2,-3;-1,-3;0,-3;1,-3;2,-3;3,-3;4,-3;-2,3;-1,3;0,3;1,3;2,3;3,3;4,3;-1,-4;0,-4;1,-4;2,-4;3,-4;-1,4;0,4;1,4;2,4;3,4;-3,-4;-4,-3;-4,-2;-4,-1;-4,0;-4,1;-4,2;-3,3;-2,4;-1,5;0,5;1,5;2,5;3,5;4,4;5,3;6,2;6,1;6,0;6,-1;6,-2;6,-3;6,-4" Type="Town">
+  <Item href="#n:inline(AdvMapTown)" id="item_581F26F2-EF3A-4869-BCC2-4B8158B2B75E">
+    <AdvMapTown>
+      <Pos>
+        <x>7</x>
+        <y>8</y>
+        <z>0</z>
+      </Pos>
+      <Rot>0</Rot>
+      <Floor>0</Floor>
+      <Name />
+      <CombatScript />
+      <pointLights />
+      <Shared href="/MapObjects/RandomTown.xdb#xpointer(/AdvMapTownShared)" />
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName />
+        </Action>
+      </CaptureTrigger>
+      <HeroDeployTrigger>
+        <Action>
+          <FunctionName />
+        </Action>
+      </HeroDeployTrigger>
+      <ShipTile>
+        <x>0</x>
+        <y>0</y>
+      </ShipTile>
+      <Specialization />
+      <buildings>
+        <Item>
+          <Type>TB_TOWN_HALL</Type>
+          <InitialUpgrade>BLD_UPG_3</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_4</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_FORT</Type>
+          <InitialUpgrade>BLD_UPG_2</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_MARKETPLACE</Type>
+          <InitialUpgrade>BLD_UPG_1</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_SHIPYARD</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_TAVERN</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_BLACKSMITH</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_MAGIC_GUILD</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_DWELLING_1</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_DWELLING_2</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_DWELLING_3</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_DWELLING_4</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_DWELLING_5</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_DWELLING_6</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+        <Item>
+          <Type>TB_DWELLING_7</Type>
+          <InitialUpgrade>BLD_UPG_NONE</InitialUpgrade>
+          <MaxUpgrade>BLD_UPG_5</MaxUpgrade>
+        </Item>
+      </buildings>
+      <Editable>
+        <NameFileRef href="" />
+        <BiographyFileRef href="" />
+      </Editable>
+      <armySlots />
+      <spellIDs>
+        <Item>SPELL_MAGIC_ARROW</Item>
+        <Item>SPELL_MAGIC_FIST</Item>
+        <Item>SPELL_LIGHTNING_BOLT</Item>
+        <Item>SPELL_ICE_BOLT</Item>
+        <Item>SPELL_FIREBALL</Item>
+        <Item>SPELL_FROST_RING</Item>
+        <Item>SPELL_CHAIN_LIGHTNING</Item>
+        <Item>SPELL_METEOR_SHOWER</Item>
+        <Item>SPELL_IMPLOSION</Item>
+        <Item>SPELL_ARMAGEDDON</Item>
+        <Item>SPELL_CURSE</Item>
+        <Item>SPELL_SLOW</Item>
+        <Item>SPELL_DISRUPTING_RAY</Item>
+        <Item>SPELL_PLAGUE</Item>
+        <Item>SPELL_WEAKNESS</Item>
+        <Item>SPELL_FORGETFULNESS</Item>
+        <Item>SPELL_BERSERK</Item>
+        <Item>SPELL_BLIND</Item>
+        <Item>SPELL_HYPNOTIZE</Item>
+        <Item>SPELL_UNHOLY_WORD</Item>
+        <Item>SPELL_BLESS</Item>
+        <Item>SPELL_HASTE</Item>
+        <Item>SPELL_STONESKIN</Item>
+        <Item>SPELL_DISPEL</Item>
+        <Item>SPELL_BLOODLUST</Item>
+        <Item>SPELL_DEFLECT_ARROWS</Item>
+        <Item>SPELL_ANTI_MAGIC</Item>
+        <Item>SPELL_TELEPORT</Item>
+        <Item>SPELL_CELESTIAL_SHIELD</Item>
+        <Item>SPELL_HOLY_WORD</Item>
+        <Item>SPELL_LAND_MINE</Item>
+        <Item>SPELL_WASP_SWARM</Item>
+        <Item>SPELL_PHANTOM</Item>
+        <Item>SPELL_EARTHQUAKE</Item>
+        <Item>SPELL_ANIMATE_DEAD</Item>
+        <Item>SPELL_SUMMON_ELEMENTALS</Item>
+        <Item>SPELL_RESURRECT</Item>
+        <Item>SPELL_SUMMON_BOAT</Item>
+        <Item>SPELL_DIMENSION_DOOR</Item>
+        <Item>SPELL_TOWN_PORTAL</Item>
+        <Item>SPELL_ABILITY_DARK_RITUAL</Item>
+        <Item>SPELL_MASS_CURSE</Item>
+        <Item>SPELL_MASS_DISRUPTING_RAY</Item>
+        <Item>SPELL_MASS_SLOW</Item>
+        <Item>SPELL_MASS_FORGETFULNESS</Item>
+        <Item>SPELL_MASS_PLAGUE</Item>
+        <Item>SPELL_MASS_WEAKNESS</Item>
+        <Item>SPELL_MASS_BLESS</Item>
+        <Item>SPELL_MASS_DISPEL</Item>
+        <Item>SPELL_MASS_STONESKIN</Item>
+        <Item>SPELL_MASS_DEFLECT_ARROWS</Item>
+        <Item>SPELL_MASS_BLOODLUST</Item>
+        <Item>SPELL_MASS_HASTE</Item>
+        <Item>SPELL_EMPOWERED_MAGIC_ARROW</Item>
+        <Item>SPELL_EMPOWERED_MAGIC_FIST</Item>
+        <Item>SPELL_EMPOWERED_LIGHTNING_BOLT</Item>
+        <Item>SPELL_EMPOWERED_ICE_BOLT</Item>
+        <Item>SPELL_EMPOWERED_FIREBALL</Item>
+        <Item>SPELL_EMPOWERED_FROST_RING</Item>
+        <Item>SPELL_EMPOWERED_CHAIN_LIGHTNING</Item>
+        <Item>SPELL_EMPOWERED_METEOR_SHOWER</Item>
+        <Item>SPELL_EMPOWERED_IMPLOSION</Item>
+        <Item>SPELL_EMPOWERED_ARMAGEDDON</Item>
+        <Item>SPELL_EMPOWERED_STONE_SPIKES</Item>
+        <Item>SPELL_SUMMON_CREATURES</Item>
+        <Item>SPELL_CONJURE_PHOENIX</Item>
+        <Item>SPELL_FIREWALL</Item>
+        <Item>SPELL_STONE_SPIKES</Item>
+        <Item>SPELL_GHOST_DISPELL</Item>
+        <Item>SPELL_GHOST_GUARD</Item>
+        <Item>SPELL_RUNE_OF_CHARGE</Item>
+        <Item>SPELL_RUNE_OF_BERSERKING</Item>
+        <Item>SPELL_RUNE_OF_MAGIC_CONTROL</Item>
+        <Item>SPELL_RUNE_OF_EXORCISM</Item>
+        <Item>SPELL_RUNE_OF_ELEMENTAL_IMMUNITY</Item>
+        <Item>SPELL_RUNE_OF_STUNNING</Item>
+        <Item>SPELL_RUNE_OF_BATTLERAGE</Item>
+        <Item>SPELL_RUNE_OF_ETHEREALNESS</Item>
+        <Item>SPELL_RUNE_OF_REVIVE</Item>
+        <Item>SPELL_RUNE_OF_DRAGONFORM</Item>
+        <Item>SPELL_SORROW</Item>
+        <Item>SPELL_VAMPIRISM</Item>
+        <Item>SPELL_DEEP_FREEZE</Item>
+        <Item>SPELL_REGENERATION</Item>
+        <Item>SPELL_DIVINE_VENGEANCE</Item>
+        <Item>SPELL_ARCANE_CRYSTAL</Item>
+        <Item>SPELL_SUMMON_HIVE</Item>
+        <Item>SPELL_BLADE_BARRIER</Item>
+        <Item>SPELL_WARCRY_RALLING_CRY</Item>
+        <Item>SPELL_WARCRY_CALL_OF_BLOOD</Item>
+        <Item>SPELL_WARCRY_WORD_OF_THE_CHIEF</Item>
+        <Item>SPELL_WARCRY_FEAR_MY_ROAR</Item>
+        <Item>SPELL_WARCRY_BATTLECRY</Item>
+        <Item>SPELL_WARCRY_SHOUT_OF_MANY</Item>
+        <Item>SPELL_EMPOWERED_DEEP_FREEZE</Item>
+        <Item>SPELL_ABILITY_CUSTOM1</Item>
+        <Item>SPELL_ABILITY_CUSTOM2</Item>
+        <Item>SPELL_ABILITY_CUSTOM3</Item>
+        <Item>SPELL_ABILITY_CUSTOM4</Item>
+      </spellIDs>
+      <CaptionFileRef href="" />
+      <GarrisonHero />
+      <Script />
+      <Randomizer.rndSource>Randomizer.rnd_NONE</Randomizer.rndSource>
+      <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      <LinkToTown />
+      <CanCaptureOnlyNotVisit>false</CanCaptureOnlyNotVisit>
+      <AllowQuickCombat>true</AllowQuickCombat>
+      <CreaturesUpgradesFilter>
+        <ForbiddenBasicUpgradeTiers />
+        <ForbiddenAlterUpgradeTiers />
+        <NotUpgradeable />
+        <ForbiddenUpgrades />
+      </CreaturesUpgradesFilter>
+      <GarrisonBlockedForAI>false</GarrisonBlockedForAI>
+      <BannedRaces />
+    </AdvMapTown>
+  </Item>
+</Object>
+<Object Name="Witch_Hut" Area="-1,0;1,0;-1,1;0,1;1,1;-1,2;0,2;1,2" Type="Barrier">
+  <Item href="#n:inline(AdvMapBuilding)" id="item_676B37B0-E27D-40B5-9EAA-3F85A15AE93C">
+    <AdvMapBuilding>
+      <Pos>
+        <x>23</x>
+        <y>80</y>
+        <z>0</z>
+      </Pos>
+      <Rot>0</Rot>
+      <Floor>0</Floor>
+      <Name />
+      <CombatScript />
+      <pointLights />
+      <Shared href="/MapObjects/Witch_Hut.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName />
+        </Action>
+      </CaptureTrigger>
+      <GroupID>0</GroupID>
+      <showCameras />
+    </AdvMapBuilding>
+  </Item>
+</Object>
+
+<Object Name="Monolith_Two_Way" AccessPoint ="1,1" Area="1,0;0,1;1,-1;2,-1;2,0" PathWays="1,-1;0,-1" Type="Monolith_Two_Way">
+  <Item href="#n:inline(AdvMapBuilding)" id="item_694D7E58-F2E6-425A-8906-1C540EA85808">
+    <AdvMapBuilding>
+      <Pos>
+        <x>90</x>
+        <y>86</y>
+        <z>0</z>
+      </Pos>
+      <Rot>0</Rot>
+      <Floor>0</Floor>
+      <Name />
+      <CombatScript />
+      <pointLights />
+      <Shared href="/MapObjects/Monolith_Two_Way.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)" />
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName />
+        </Action>
+      </CaptureTrigger>
+      <GroupID>0</GroupID>
+      <showCameras />
+    </AdvMapBuilding>
+  </Item>
+</Object>
+<ComplexObject Name="Mummy_Graves" AccessPoint ="0,-1">
+  <SubObject>
+    <Item href="#n:inline(AdvMapStatic)" id="item_5653D9ED-9764-49A9-BF15-9BC93BF4BF4C">
+      <AdvMapStatic>
+        <Pos>
+          <x>1</x>
+          <y>1</y>
+          <z>0</z>
+        </Pos>
+        <Rot>6.28319</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Grass/Combat_Arena/Grave02.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+        <IsRemovable>false</IsRemovable>
+        <TerrainAligned>false</TerrainAligned>
+        <ScalePercent>100</ScalePercent>
+      </AdvMapStatic>
+    </Item>
+  </SubObject>
+  <SubObject>
+    <Item href="#n:inline(AdvMapStatic)" id="item_E22D17DB-5666-4DD8-97B4-746161C038AA">
+      <AdvMapStatic>
+        <Pos>
+          <x>-1</x>
+          <y>0</y>
+          <z>0</z>
+        </Pos>
+        <Rot>6.28319</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Grass/Combat_Arena/Grave09.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+        <IsRemovable>false</IsRemovable>
+        <TerrainAligned>false</TerrainAligned>
+        <ScalePercent>100</ScalePercent>
+      </AdvMapStatic>
+    </Item>
+  </SubObject>
+  <SubObject>
+    <Item href="#n:inline(AdvMapStatic)" id="item_4B0C79FE-8E52-4132-AA16-27E6EC762D81">
+      <AdvMapStatic>
+        <Pos>
+          <x>0</x>
+          <y>1</y>
+          <z>0</z>
+        </Pos>
+        <Rot>6.28319</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Grass/Combat_Arena/Grave08.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+        <IsRemovable>false</IsRemovable>
+        <TerrainAligned>false</TerrainAligned>
+        <ScalePercent>100</ScalePercent>
+      </AdvMapStatic>
+    </Item>
+  </SubObject>
+  <SubObject>
+    <Item href="#n:inline(AdvMapStatic)" id="item_F624A7EE-0855-4967-AAF0-563A30E57941">
+      <AdvMapStatic>
+        <Pos>
+          <x>-1</x>
+          <y>1</y>
+          <z>0</z>
+        </Pos>
+        <Rot>6.28319</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Grass/Combat_Arena/Grave06.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+        <IsRemovable>false</IsRemovable>
+        <TerrainAligned>false</TerrainAligned>
+        <ScalePercent>100</ScalePercent>
+      </AdvMapStatic>
+    </Item>
+  </SubObject>
+  <SubObject>
+    <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+      <AdvMapDwelling>
+        <Pos>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </Pos>
+        <Rot>4.71239</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href=".(New_buildings)/Mummy_Graves/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>true</RandomCreatures>
+        <RndSource>RND_PLAYER</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </SubObject>
+  <SubObject>
+    <Item href="#n:inline(AdvMapStatic)" id="item_FD6F913A-AA0A-42B4-8C09-5E90DE177276">     
+      <AdvMapStatic>
+        <Pos>
+          <x>1</x>
+          <y>0</y>
+          <z>0</z>
+        </Pos>
+        <Rot>6.28319</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Grass/Combat_Arena/Grave05.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+        <IsRemovable>false</IsRemovable>
+        <TerrainAligned>false</TerrainAligned>
+        <ScalePercent>100</ScalePercent>
+      </AdvMapStatic>
+    </Item>
+  </SubObject>
+  </ComplexObject>
+<ComplexObject Name="Fire_Lake" AccessPoint ="0,-1">
+  <SubObject>
+  <Item href="#n:inline(AdvMapDwelling)" id="item_DFF86CB8-18A9-4A70-5F78-18BE7B5F8BB6">
+    <AdvMapDwelling>
+      <Pos>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Pos>
+      <Rot>6.28319</Rot>
+      <Floor>0</Floor>
+      <Name/>
+      <CombatScript/>
+      <pointLights/>
+      <Shared href=".(New_buildings)/Fire_stone/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName/>
+        </Action>
+      </CaptureTrigger>
+      <RandomCreatures>true</RandomCreatures>
+      <RndSource>RND_PLAYER</RndSource>
+      <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      <LinkToTown/>
+    </AdvMapDwelling>
+  </Item>
+    </SubObject>
+  <SubObject>
+    <Item href="#n:inline(AdvMapStatic)" id="item_9FD29F29-805A-4B1C-A49E-DFF4DEBCF3A4">
+      <AdvMapStatic>
+        <Pos>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Effects/Fire/TampleOfDamned.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)" />
+        <IsRemovable>false</IsRemovable>
+        <TerrainAligned>false</TerrainAligned>
+        <ScalePercent>100</ScalePercent>
+      </AdvMapStatic>
+    </Item>
+  </SubObject>
+</ComplexObject>
+  <Object Name="OrcsDwelling" Type="HighDwelling"  AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_5642513F-2CC7-404F-8EFD-33037603FE68">
+      <AdvMapDwelling>
+        <Pos>
+          <x>95</x>
+          <y>64</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Orcs/OrcishDwelling04.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>false</RandomCreatures>
+        <creaturesEnabled>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+        </creaturesEnabled>
+        <RndSource>RND_NONE</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>                                                                                                                                                                             
+  </Object>                                                                                                                                           
+  <Object Name="Orcs4Dwelling" Type="HighDwelling"  AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;3,1;3,0;3,-1;3,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_518F4B8F-79F8-4BF2-9340-C169712F9B58">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>101</x>
+       		<y>33</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Orcs/Custom_dwell_shaman/OrcishDwelling04.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Orcs5Dwelling" Type="HighDwelling"  AccessPoint ="0,-3" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;0,-2;3,1;3,0;3,-1;3,-2;-2,1;-2,0;-2,-1;-2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_C6A7C806-178E-448F-8635-CC3570423709">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>108</x>
+       		<y>33</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Orcs/Custom_dwell_palach/OrcishDwelling04.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Orcs6Dwelling" Type="HighDwelling"  AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_E1E41118-BDB7-44EA-A04F-3731CAF6FE5A">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>116</x>
+       		<y>33</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Orcs/Custom_dwell_vywern/OrcishDwelling04.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Orcs7Dwelling" Type="HighDwelling"  AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_E4B82957-B5AF-45E1-81DA-FE197E1A4C70">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>124</x>
+       		<y>33</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Orcs/Custom_dwell_cyclop/OrcishDwelling04.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="SylvanDwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_D1CD16AE-4886-4F05-B6DD-F57D16688B68">
+      <AdvMapDwelling>
+        <Pos>
+          <x>96</x>
+          <y>71</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Preserve/Preserve_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>false</RandomCreatures>
+        <creaturesEnabled>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+        </creaturesEnabled>
+        <RndSource>RND_NONE</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </Object>
+  <Object Name="Sylvan4Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_A9E89E17-9EAB-4C7F-94BD-158742B52712">
+      <AdvMapDwelling>
+      	<Pos>
+      		<x>23</x>
+      		<y>54</y>
+      		<z>0</z>
+      	</Pos>
+      	<Rot>0</Rot>
+      	<Floor>0</Floor>
+      	<Name/>
+      	<CombatScript/>
+      	<pointLights/>
+      	<Shared href="/MapObjects/Preserve/Custom_dwell_druid/Preserve_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+      	<PlayerID>PLAYER_NONE</PlayerID>
+      	<CaptureTrigger>
+      		<Action>
+      			<FunctionName/>
+      		</Action>
+      	</CaptureTrigger>
+      	<RandomCreatures>true</RandomCreatures>
+      	<creaturesEnabled/>
+      	<RndSource>RND_NONE</RndSource>
+      	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      	<LinkToTown/>
+      </AdvMapDwelling>
+   </Item>
+  </Object>
+
+  <Object Name="Sylvan5Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_ED895BEF-ADBE-4E77-9497-581C5DB88B82">
+  	<AdvMapDwelling>
+  		<Pos>
+  			<x>30</x>
+  			<y>54</y>
+  			<z>0</z>
+  		</Pos>
+  		<Rot>0</Rot>
+  		<Floor>0</Floor>
+  		<Name/>
+  		<CombatScript/>
+  		<pointLights/>
+  		<Shared href="/MapObjects/Preserve/Custom_dwell_unicorn/Preserve_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+  		<PlayerID>PLAYER_NONE</PlayerID>
+  		<CaptureTrigger>
+  			<Action>
+  				<FunctionName/>
+  			</Action>
+  		</CaptureTrigger>
+  		<RandomCreatures>true</RandomCreatures>
+  		<creaturesEnabled/>
+  		<RndSource>RND_NONE</RndSource>
+  		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+  		<LinkToTown/>
+  	</AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Sylvan6Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_67CB14A8-22F6-40B8-A101-EC8563AFC8B4">
+  	<AdvMapDwelling>
+  		<Pos>
+  			<x>37</x>
+  			<y>54</y>
+  			<z>0</z>
+  		</Pos>
+  		<Rot>0</Rot>
+  		<Floor>0</Floor>
+  		<Name/>
+  		<CombatScript/>
+  		<pointLights/>
+  		<Shared href="/MapObjects/Preserve/Custom_dwell_ent/Preserve_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+  		<PlayerID>PLAYER_NONE</PlayerID>
+  		<CaptureTrigger>
+  			<Action>
+  				<FunctionName/>
+  			</Action>
+  		</CaptureTrigger>
+  		<RandomCreatures>true</RandomCreatures>
+  		<creaturesEnabled/>
+  		<RndSource>RND_NONE</RndSource>
+  		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+  		<LinkToTown/>
+  	</AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Sylvan7Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_8ACDFF96-8AC0-4574-B4FD-424F94C1D0C2">
+  	<AdvMapDwelling>
+  		<Pos>
+  			<x>44</x>
+  			<y>54</y>
+  			<z>0</z>
+  		</Pos>
+  		<Rot>0</Rot>
+  		<Floor>0</Floor>
+  		<Name/>
+  		<CombatScript/>
+  		<pointLights/>
+  		<Shared href="/MapObjects/Preserve/Custom_dwell_dragon/Preserve_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+  		<PlayerID>PLAYER_NONE</PlayerID>
+  		<CaptureTrigger>
+  			<Action>
+  				<FunctionName/>
+  			</Action>
+  		</CaptureTrigger>
+  		<RandomCreatures>true</RandomCreatures>
+  		<creaturesEnabled/>
+  		<RndSource>RND_NONE</RndSource>
+  		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+  		<LinkToTown/>
+  	</AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="NecropolisDwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_7873FDB1-FCB0-476A-B8DE-03961684F765">
+      <AdvMapDwelling>
+        <Pos>
+          <x>94</x>
+          <y>57</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Necropolis/Necropolis_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>false</RandomCreatures>
+        <creaturesEnabled>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+        </creaturesEnabled>
+        <RndSource>RND_NONE</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </Object>
+  <Object Name="Necropolis4Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_6D3B6ABE-EFE0-444A-9902-CD10DD775482">
+   	<AdvMapDwelling>
+   		<Pos>
+   			<x>98</x>
+   			<y>67</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>0</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/Necropolis/Custom_dwell_vamp/Necropolis_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<RandomCreatures>true</RandomCreatures>
+   		<creaturesEnabled/>
+   		<RndSource>RND_NONE</RndSource>
+   		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+   		<LinkToTown/>
+   	</AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Necropolis5Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_4690EFB2-0A6D-434D-A902-0A9A5EDC5FE2">
+ 	<AdvMapDwelling>
+ 		<Pos>
+ 			<x>105</x>
+ 			<y>67</y>
+ 			<z>0</z>
+ 		</Pos>
+ 		<Rot>0</Rot>
+ 		<Floor>0</Floor>
+ 		<Name/>
+ 		<CombatScript/>
+ 		<pointLights/>
+ 		<Shared href="/MapObjects/Necropolis/Custom_dwell_lich/Necropolis_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+ 		<PlayerID>PLAYER_NONE</PlayerID>
+ 		<CaptureTrigger>
+ 			<Action>
+ 				<FunctionName/>
+ 			</Action>
+ 		</CaptureTrigger>
+ 		<RandomCreatures>true</RandomCreatures>
+ 		<creaturesEnabled/>
+ 		<RndSource>RND_NONE</RndSource>
+ 		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+ 		<LinkToTown/>
+ 	</AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Necropolis6Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_4E4EC56B-4B3C-4C5B-AAFB-4A7C92355DC8">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>112</x>
+       		<y>67</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Necropolis/Custom_dwell_vestnik/Necropolis_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Necropolis7Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_71423BFB-FB04-4747-8DB0-8164E1827DAC">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>120</x>
+       		<y>67</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Necropolis/Custom_dwell_dragon/Necropolis_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+
+  <Object Name="InfernoDwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+  <Item href="#n:inline(AdvMapDwelling)" id="item_447E8357-EC3A-481E-B01B-D8754B5BC8A5">
+    <AdvMapDwelling>
+      <Pos>
+        <x>100</x>
+        <y>60</y>
+        <z>0</z>
+      </Pos>
+      <Rot>0</Rot>
+      <Floor>0</Floor>
+      <Name/>
+      <CombatScript/>
+      <pointLights/>
+      <Shared href="/MapObjects/Inferno/InfernoMilitaryPost.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName/>
+        </Action>
+      </CaptureTrigger>
+      <RandomCreatures>false</RandomCreatures>
+      <creaturesEnabled>
+        <Item>0</Item>
+        <Item>0</Item>
+        <Item>0</Item>
+        <Item>0</Item>
+      </creaturesEnabled>
+      <RndSource>RND_NONE</RndSource>
+      <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      <LinkToTown/>
+    </AdvMapDwelling>
+  </Item>
+  </Object>
+  <Object Name="Inferno4Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_92792A85-AE52-4A2B-A5C6-1C594C96E989">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>98</x>
+       		<y>99</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Inferno/Custom_dwell_succub/InfernoMilitaryPost.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Inferno5Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_9F54F6F0-C52D-45B5-B282-7C1F02BDD037">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>105</x>
+       		<y>99</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Inferno/Custom_dwell_koshmar/InfernoMilitaryPost.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Inferno6Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_284F7CFD-05A8-476F-8937-35058B957A0D">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>113</x>
+       		<y>99</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Inferno/Custom_dwell_pit/InfernoMilitaryPost.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Inferno7Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_02D20306-FD61-4160-AACB-79BF1473EC5C">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>121</x>
+       		<y>99</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Inferno/Custom_dwell_devil/InfernoMilitaryPost.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="FortressDwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_00708364-D5F8-4335-8E72-80436AA0E3B7">
+      <AdvMapDwelling>
+        <Pos>
+          <x>101</x>
+          <y>68</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Dwarven/DwarvenDwelling04.(AdvMapDwellingShared) (2).xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>false</RandomCreatures>
+        <creaturesEnabled>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+        </creaturesEnabled>
+        <RndSource>RND_NONE</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </Object>
+  <Object Name="Fortress4Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_04961151-4814-4E23-8346-D8DDF115DA12">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>22</x>
+       		<y>19</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Dwarven/Custom_dwell_kostolom/DwarvenDwelling04.(AdvMapDwellingShared) (2).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Fortress5Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_52907719-6108-48FF-A5A3-A3995B41B69B">
+     <AdvMapDwelling>
+     	<Pos>
+     		<x>30</x>
+     		<y>19</y>
+     		<z>0</z>
+     	</Pos>
+     	<Rot>0</Rot>
+     	<Floor>0</Floor>
+     	<Name/>
+     	<CombatScript/>
+     	<pointLights/>
+     	<Shared href="/MapObjects/Dwarven/Custom_dwell_ded/DwarvenDwelling04.(AdvMapDwellingShared) (2).xdb#xpointer(/AdvMapDwellingShared)"/>
+     	<PlayerID>PLAYER_NONE</PlayerID>
+     	<CaptureTrigger>
+     		<Action>
+     			<FunctionName/>
+     		</Action>
+     	</CaptureTrigger>
+     	<RandomCreatures>true</RandomCreatures>
+     	<creaturesEnabled/>
+     	<RndSource>RND_NONE</RndSource>
+     	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+     	<LinkToTown/>
+     </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Fortress6Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_614B7D48-B945-48CF-AA73-CDE93DA1A480">
+ 	<AdvMapDwelling>
+ 		<Pos>
+ 			<x>36</x>
+ 			<y>19</y>
+ 			<z>0</z>
+ 		</Pos>
+ 		<Rot>0</Rot>
+ 		<Floor>0</Floor>
+ 		<Name/>
+ 		<CombatScript/>
+ 		<pointLights/>
+ 		<Shared href="/MapObjects/Dwarven/Custom_dwell_tan/DwarvenDwelling04.(AdvMapDwellingShared) (2).xdb#xpointer(/AdvMapDwellingShared)"/>
+ 		<PlayerID>PLAYER_NONE</PlayerID>
+ 		<CaptureTrigger>
+ 			<Action>
+ 				<FunctionName/>
+ 			</Action>
+ 		</CaptureTrigger>
+ 		<RandomCreatures>true</RandomCreatures>
+ 		<creaturesEnabled/>
+ 		<RndSource>RND_NONE</RndSource>
+ 		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+ 		<LinkToTown/>
+ 	</AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Fortress7Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_3E858ABE-71C1-416A-8BF7-D65562AF8654">
+	<AdvMapDwelling>
+		<Pos>
+			<x>45</x>
+			<y>19</y>
+			<z>0</z>
+		</Pos>
+		<Rot>0</Rot>
+		<Floor>0</Floor>
+		<Name/>
+		<CombatScript/>
+		<pointLights/>
+		<Shared href="/MapObjects/Dwarven/Custom_dwell_dragon/DwarvenDwelling04.(AdvMapDwellingShared) (2).xdb#xpointer(/AdvMapDwellingShared)"/>
+		<PlayerID>PLAYER_NONE</PlayerID>
+		<CaptureTrigger>
+			<Action>
+				<FunctionName/>
+			</Action>
+		</CaptureTrigger>
+		<RandomCreatures>true</RandomCreatures>
+		<creaturesEnabled/>
+		<RndSource>RND_NONE</RndSource>
+		<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+		<LinkToTown/>
+	</AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="DungeonDwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_3244B503-2F0B-47EF-AFC5-2129AAC2884F">
+      <AdvMapDwelling>
+        <Pos>
+          <x>102</x>
+          <y>75</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Dungeon/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>false</RandomCreatures>
+        <creaturesEnabled>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+        </creaturesEnabled>
+        <RndSource>RND_NONE</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </Object>
+  <Object Name="Dungeon4Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_585BBAB6-E9F3-40B0-BE2F-EA74E332D7E0">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>97</x>
+       		<y>128</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Dungeon/Custom_dwell_rider/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Dungeon5Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_561D2B7E-BBC1-4351-8DF1-BC5FB483FEC9">
+      <AdvMapDwelling>
+      	<Pos>
+      		<x>104</x>
+      		<y>128</y>
+      		<z>0</z>
+      	</Pos>
+      	<Rot>0</Rot>
+      	<Floor>0</Floor>
+      	<Name/>
+      	<CombatScript/>
+      	<pointLights/>
+      	<Shared href="/MapObjects/Dungeon/Custom_dwell_hydra/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+      	<PlayerID>PLAYER_NONE</PlayerID>
+      	<CaptureTrigger>
+      		<Action>
+      			<FunctionName/>
+      		</Action>
+      	</CaptureTrigger>
+      	<RandomCreatures>true</RandomCreatures>
+      	<creaturesEnabled/>
+      	<RndSource>RND_NONE</RndSource>
+      	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      	<LinkToTown/>
+      </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Dungeon6Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_62B2DA37-97A2-4960-A516-5D1D959F94FF">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>111</x>
+       		<y>129</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Dungeon/Custom_dwell_matron/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Dungeon7Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_A7AB4BB8-EEF5-4B5F-9C1C-7A254A448C40">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>118</x>
+       		<y>129</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Dungeon/Custom_dwell_dragon/Dungeon_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="AcademyDwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_E4BE5D4F-F012-455C-9FA7-89DB02A2C3A7">
+      <AdvMapDwelling>
+        <Pos>
+          <x>90</x>
+          <y>76</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Academy/Academy_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>false</RandomCreatures>
+        <creaturesEnabled>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+        </creaturesEnabled>
+        <RndSource>RND_NONE</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </Object>
+  <Object Name="Academy4Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_81269540-76F8-459F-8F28-BC152E23B5EB">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>21</x>
+       		<y>128</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>6.28319</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Academy/Custom_dwell_mag/Academy_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Academy5Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_C6229EA3-1847-4C79-9D41-41046CBD41D6">
+      <AdvMapDwelling>
+      	<Pos>
+      		<x>27</x>
+      		<y>128</y>
+      		<z>0</z>
+      	</Pos>
+      	<Rot>0</Rot>
+      	<Floor>0</Floor>
+      	<Name/>
+      	<CombatScript/>
+      	<pointLights/>
+      	<Shared href="/MapObjects/Academy/Custom_dwell_djinn/Academy_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+      	<PlayerID>PLAYER_NONE</PlayerID>
+      	<CaptureTrigger>
+      		<Action>
+      			<FunctionName/>
+      		</Action>
+      	</CaptureTrigger>
+      	<RandomCreatures>true</RandomCreatures>
+      	<creaturesEnabled/>
+      	<RndSource>RND_NONE</RndSource>
+      	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      	<LinkToTown/>
+      </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Academy6Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_DBCE1826-494A-4095-A02A-63B36AECBC46">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>33</x>
+       		<y>129</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>6.51683e-007</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Academy/Custom_dwell_rakshass/Academy_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Academy7Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_84B5EA9B-9EC9-4914-929E-CB017D1E976C">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>41</x>
+       		<y>128</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>0</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Academy/Custom_dwell_titan/Academy_Military_Post.xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="HavenDwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_80E31585-1CF8-42FC-A91C-0AEB9601CE82">
+      <AdvMapDwelling>
+        <Pos>
+          <x>87</x>
+          <y>66</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Haven/Heaven_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>false</RandomCreatures>
+        <creaturesEnabled>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+          <Item>0</Item>
+        </creaturesEnabled>
+        <RndSource>RND_NONE</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </Object>
+  <Object Name="Haven4Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_7252AAA5-AF8B-4625-8D95-E519F169ACEF">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>23</x>
+       		<y>96</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>3.03587e-006</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Haven/Custom_dwell_grif/Heaven_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Haven5Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_92D6AE82-44BF-491D-92EF-DCAAB5E77D03">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>28</x>
+       		<y>96</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>5.89689e-006</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Haven/Custom_dwell_monk/Heaven_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Haven6Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2;-2,3;-2,4;-1,3;-1,4;0,3;0,4;1,3;1,4;2,3;2,4;3,4;4,4;3,3;4,3;3,2;4,2;3,1;4,1;3,0;4,0;3,-1;4,-1;3,-2;4,-2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_8A57D616-7F8E-45F0-84EE-D92DE8EE72EC">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>35</x>
+       		<y>97</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>2.55903e-006</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Haven/Custom_dwell_paladin/Heaven_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="Haven7Dwelling" Type="HighDwelling" AccessPoint ="0,-2" Area="-1,-1;1,-1;2,-1;-1,0;1,0;2,0;-1,1;0,1;1,1;2,1;0,-1;-1,-2;1,-2;2,-2;-2,-2;-2,-1;-2,0;-2,1;-2,2;-1,2;0,2;1,2;2,2">
+   <Item href="#n:inline(AdvMapDwelling)" id="item_DE3CAEE2-5770-492D-8AC2-5180099E6ED0">
+       <AdvMapDwelling>
+       	<Pos>
+       		<x>43</x>
+       		<y>96</y>
+       		<z>0</z>
+       	</Pos>
+       	<Rot>3.03587e-006</Rot>
+       	<Floor>0</Floor>
+       	<Name/>
+       	<CombatScript/>
+       	<pointLights/>
+       	<Shared href="/MapObjects/Haven/Custom_dwell_angel/Heaven_Military_Post.(AdvMapDwellingShared).xdb#xpointer(/AdvMapDwellingShared)"/>
+       	<PlayerID>PLAYER_NONE</PlayerID>
+       	<CaptureTrigger>
+       		<Action>
+       			<FunctionName/>
+       		</Action>
+       	</CaptureTrigger>
+       	<RandomCreatures>true</RandomCreatures>
+       	<creaturesEnabled/>
+       	<RndSource>RND_NONE</RndSource>
+       	<LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+       	<LinkToTown/>
+       </AdvMapDwelling>
+   </Item>
+  </Object>
+  <Object Name="RandomDwelling" Type="LowDwelling" AccessPoint ="0,-1" Area="1,0;0,1;1,1">
+    <Item href="#n:inline(AdvMapDwelling)" id="item_39EBAC12-634A-4C8C-80DF-059407C837A1">
+      <AdvMapDwelling>
+        <Pos>
+          <x>88</x>
+          <y>54</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name/>
+        <CombatScript/>
+        <pointLights/>
+        <Shared href="/MapObjects/Random/RandomDwelling1.xdb#xpointer(/AdvMapDwellingShared)"/>
+        <PlayerID>PLAYER_NONE</PlayerID>
+        <CaptureTrigger>
+          <Action>
+            <FunctionName/>
+          </Action>
+        </CaptureTrigger>
+        <RandomCreatures>true</RandomCreatures>
+        <creaturesEnabled/>
+        <RndSource>RND_PLAYER</RndSource>
+        <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+        <LinkToTown/>
+      </AdvMapDwelling>
+    </Item>
+  </Object>
+  <Object Name="GarrisonEvil" Type="Garrison" Area="-1,0;1,0;-1,-1;0,-1;1,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_E55F7664-3DF0-4012-8626-B5EA37697E54">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>14</x>
+   			<y>48</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>0</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/GarrisonEvil.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   		  <Item>
+    		   <Creature></Creature>
+                   <Count></Count>
+		  </Item>
+                </armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_RANDOM_TYPE</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="GarrisonOrcish" Type="Garrison" Area="-1,0;1,0;-1,-1;0,-1;1,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_184059CF-CF53-4C7D-82C5-D7CAB622D827">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>14</x>
+   			<y>55</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>0</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/GarrisonOrcish.xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   		  <Item>
+    		   <Creature></Creature>
+                   <Count></Count>
+		  </Item>
+                </armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_RANDOM_TYPE</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="GarrisonAntiMagic" Type="Garrison" Area="-1,0;1,0;-1,-1;0,-1;1,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_4A5AF62E-C3E0-4ED9-A7DB-3395D9D0A7BF">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>15</x>
+   			<y>36</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>0</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/GarrisonAntiMagic.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   		  <Item>
+    		   <Creature></Creature>
+                   <Count></Count>
+		  </Item>
+                </armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_RANDOM_TYPE</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="GarrisonGood" Type="Garrison" Area="-1,0;1,0;-1,-1;0,-1;1,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_28459A39-DAE1-416C-A799-BE1BE791AEC9">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>15</x>
+   			<y>31</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>0</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/GarrisonGood.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   		  <Item>
+    		   <Creature></Creature>
+                   <Count></Count>
+		  </Item>
+                </armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_RANDOM_TYPE</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="GarrisonDwarven" Type="Garrison" Area="-1,0;1,0;-1,-1;0,-1;1,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_215849DB-EBA4-4CBE-AF65-CAA73FB405CD">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>14</x>
+   			<y>41</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>0</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/GarrisonDwarven.xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   		  <Item>
+    		   <Creature></Creature>
+                   <Count></Count>
+		  </Item>
+                </armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_RANDOM_TYPE</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_heaven" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_HEAVEN</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_Sylvan" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_PRESERVE</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_ACADEMY" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_ACADEMY</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_DUNGEON" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_DUNGEON</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_NECROMANCY" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_NECROMANCY</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_INFERNO" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_INFERNO</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_FORTRESS" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_FORTRESS</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+  <Object Name="Forpost_STRONGHOLD" Type="Forpost" Area="1,0;1,1;-1,0;-1,-1;-1,1;1,-1;0,1;0,-1">
+   <Item href="#n:inline(AdvMapGarrison)" id="item_BE60910A-4C70-4AC6-8154-84BE6F87A01C">
+   	<AdvMapGarrison>
+   		<Pos>
+   			<x>78</x>
+   			<y>107</y>
+   			<z>0</z>
+   		</Pos>
+   		<Rot>1.5708</Rot>
+   		<Floor>0</Floor>
+   		<Name/>
+   		<CombatScript/>
+   		<pointLights/>
+   		<Shared href="/MapObjects/H5A2/Forpost.(AdvMapGarrisonShared).xdb#xpointer(/AdvMapGarrisonShared)"/>
+   		<PlayerID>PLAYER_NONE</PlayerID>
+   		<CaptureTrigger>
+   			<Action>
+   				<FunctionName/>
+   			</Action>
+   		</CaptureTrigger>
+   		<armySlots>
+   			<Item>
+   				<Creature></Creature>
+   				<Count></Count>
+   			</Item>
+   		</armySlots>
+   		<CollectableArmy>false</CollectableArmy>
+   		<AllowQuickCombat>true</AllowQuickCombat>
+   		<TownType>TOWN_STRONGHOLD</TownType>
+   	</AdvMapGarrison>
+   </Item>
+  </Object>
+</Objects>

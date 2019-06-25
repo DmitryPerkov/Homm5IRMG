@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <XmlMonstersTemplates>
+    <Object Value="12" Type="Guard">
+      <Item href="#n:inline(AdvMapMonster)" id="item_3F813B8E-5B61-48A8-A63A-BF47C311FD13">
+        <AdvMapMonster>
+          <Pos>
+            <x>37</x>
+            <y>98</y>
+            <z>0</z>
+          </Pos>
+          <Rot>1.5708</Rot>
+          <Floor>0</Floor>
+          <Name/>
+          <CombatScript/>
+          <pointLights/>
+          <Shared href="/MapObjects/Random/Random-Monster-L3.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+          <Custom>true</Custom>
+          <Amount>20</Amount>
+          <Amount2>0</Amount2>
+          <AttackType>ATTACK_ANY</AttackType>
+          <MoveType>MOVE_ANY</MoveType>
+          <DoesNotGrow>false</DoesNotGrow>
+          <MessageFileRef href=""/>
+          <Script/>
+          <Resources>
+            <Wood>0</Wood>
+            <Ore>0</Ore>
+            <Mercury>0</Mercury>
+            <Crystal>0</Crystal>
+            <Sulfur>0</Sulfur>
+            <Gem>0</Gem>
+            <Gold>0</Gold>
+          </Resources>
+          <ArtifactID>ARTIFACT_NONE</ArtifactID>
+          <Mood>MONSTER_MOOD_AGGRESSIVE</Mood>
+          <Courage>MONSTER_COURAGE_ALWAYS_FIGHT</Courage>
+          <AllowQuickCombat>true</AllowQuickCombat>
+          <DoesNotDependOnDifficulty>false</DoesNotDependOnDifficulty>
+          <AdditionalStacks>
+            <Item>
+              <Creature>CREATURE_STALKER</Creature>
+              <CustomAmount>true</CustomAmount>
+              <Amount>5</Amount>
+              <Amount2>5</Amount2>
+            </Item>
+          </AdditionalStacks>
+          <SingleMonsterNameFileRef href=""/>
+          <MultipleMonstersNameFileRef href=""/>
+          <RacesRandomGroupID>0</RacesRandomGroupID>
+          <relationsOverrides/>
+        </AdvMapMonster>
+      </Item>
+    </Object>
+  </XmlMonstersTemplates>
+  <MonstersInfo>
+    <Level1>        
+      <Monster Name ="CREATURE_GREMLIN" Power="63" Town="Academy" CreatureName="Gremlin.xdb" Shooter="Yes" Caster="No"/>
+      <Monster Name ="CREATURE_MASTER_GREMLIN" Power="105" Town="Academy" CreatureName="MasterGremlin.xdb" Shooter="Yes" Caster="No"/>
+      <Monster Name ="CREATURE_GREMLIN_SABOTEUR" Power="105" Town="Academy" CreatureName="Gremlin_Saboteur" Shooter="Yes" Caster="No"/>
+      <Monster Name ="CREATURE_SCOUT" Power="180" Town="Dungeon" CreatureName="Scout" Shooter="Yes" Caster="No"/>
+      <Monster Name ="CREATURE_ASSASSIN" Power="295" Town="Dungeon" CreatureName="Assassin" Shooter="Yes" Caster="No"/>
+      <Monster Name ="CREATURE_STALKER" Power="290" Town="Dungeon" CreatureName="Stalker" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_DEFENDER" Power="70" Town="Fortress" CreatureName="Defender" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_STOUT_DEFENDER" Power="115" Town="Fortress" CreatureName="Stout_Defender" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_STONE_DEFENDER" Power="113" Town="Fortress" CreatureName="Stone_Defender" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_PEASANT" Power="41" Town="Haven" CreatureName="Peasant" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_MILITIAMAN" Power="72" Town="Haven" CreatureName="Militiaman" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_LANDLORD" Power="72" Town="Haven" CreatureName="Renegates/Landlord" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_FAMILIAR" Power="75" Town="Inferno" CreatureName="Familiar" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_IMP" Power="124" Town="Inferno" CreatureName="Imp" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_QUASIT" Power="127" Town="Inferno" CreatureName="Quasit" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_SKELETON" Power="54" Town="Necropolis" CreatureName="Sceleton" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_SKELETON_ARCHER" Power="84" Town="Necropolis" CreatureName="Sceleton_Archer" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_SKELETON_WARRIOR" Power="85" Town="Necropolis" CreatureName="Alt_upgrade/Skeleton_Warrior" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_PIXIE" Power="100" Town="Sylvan" CreatureName="Pixie" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_SPRITE" Power="169" Town="Sylvan" CreatureName="Sprite" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_DRYAD" Power="174" Town="Sylvan" CreatureName="Alt_upgrade/Dryad.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_GOBLIN" Power="42" Town="Stronghold" CreatureName="Goblin.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_GOBLIN_TRAPPER" Power="69" Town="Stronghold" CreatureName="Goblin_Trapper" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_GOBLIN_DEFILER" Power="66" Town="Stronghold" CreatureName="Goblin_Defiler" Shooter="No" Caster="No"/>
+  </Level1>
+  <Level2>
+          <Monster Name ="CREATURE_STONE_GARGOYLE" Power="113" Town="Academy" CreatureName="Stone_Gargoyle.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_OBSIDIAN_GARGOYLE" Power="172" Town="Academy" CreatureName="Obsidian_Gargoyle.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MARBLE_GARGOYLE" Power="180" Town="Academy" CreatureName="Marble_Gargoyle" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WITCH" Power="333" Town="Dungeon" CreatureName="Witch" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BLOOD_WITCH" Power="484" Town="Dungeon" CreatureName="Blood_Witch" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BLOOD_WITCH_2" Power="477" Town="Dungeon" CreatureName="Blood_Witch_upg2" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_AXE_FIGHTER" Power="115" Town="Fortress" CreatureName="Axe_Fighter" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_AXE_THROWER" Power="171" Town="Fortress" CreatureName="Axe_Thrower" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_HARPOONER" Power="171" Town="Fortress" CreatureName="Harpooner" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_ARCHER" Power="140" Town="Haven" CreatureName="Archer" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_MARKSMAN" Power="199" Town="Haven" CreatureName="Marksman" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_LONGBOWMAN" Power="203" Town="Haven" CreatureName="Renegates/Longbowman" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_DEMON" Power="101" Town="Inferno" CreatureName="Demon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_HORNED_DEMON" Power="150" Town="Inferno" CreatureName="Horned_Demon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_HORNED_LEAPER" Power="149" Town="Inferno" CreatureName="Horned_Leaper" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WALKING_DEAD" Power="105" Town="Necropolis" CreatureName="Walking_Dead" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ZOMBIE" Power="150" Town="Necropolis" CreatureName="Zombie" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_DISEASE_ZOMBIE" Power="145" Town="Necropolis" CreatureName="Alt_upgrade/Disease_Zombie" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BLADE_JUGGLER" Power="191" Town="Sylvan" CreatureName="Blade_Juggler" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WAR_DANCER" Power="311" Town="Sylvan" CreatureName="War_Dancer" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BLADE_SINGER" Power="308" Town="Sylvan" CreatureName="Alt_upgrade/Bladesinger" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_CENTAUR" Power="121" Town="Stronghold" CreatureName="Centaur" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_CENTAUR_NOMAD" Power="174" Town="Stronghold" CreatureName="Centaur_Nomad.xdb" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_CENTAUR_MARADEUR" Power="181" Town="Stronghold" CreatureName="Centaur_Marauder" Shooter="Yes" Caster="No"/>
+  </Level2>
+  <Level3>
+          <Monster Name ="CREATURE_IRON_GOLEM" Power="243" Town="Academy" CreatureName="Iron_Golem.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_STEEL_GOLEM" Power="357" Town="Academy" CreatureName="Steel_Golem.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_OBSIDIAN_GOLEM" Power="355" Town="Academy" CreatureName="Obsidian_Golem" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MINOTAUR" Power="342" Town="Dungeon" CreatureName="Minotaur" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MINOTAUR_KING" Power="474" Town="Dungeon" CreatureName="Minotaur_King" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MINOTAUR_CAPTAIN" Power="488" Town="Dungeon" CreatureName="Minotaur_Captain" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BEAR_RIDER" Power="304" Town="Fortress" CreatureName="Bear_Raider" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BLACKBEAR_RIDER" Power="419" Town="Fortress" CreatureName="Blackbear_Raider" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WHITE_BEAR_RIDER" Power="422" Town="Fortress" CreatureName="Whitebear_Rider" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_FOOTMAN" Power="201" Town="Haven" CreatureName="Footman" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_SWORDSMAN" Power="287" Town="Haven" CreatureName="Swordsman" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_VINDICATOR" Power="299" Town="Haven" CreatureName="Renegates/Vindicator" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_HELL_HOUND" Power="259" Town="Inferno" CreatureName="HellHound" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_CERBERI" Power="370" Town="Inferno" CreatureName="Cerberi" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_FIREBREATHER_HOUND" Power="338" Town="Inferno" CreatureName="Firebreather" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MANES" Power="232" Town="Necropolis" CreatureName="Manes.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_GHOST" Power="327" Town="Necropolis" CreatureName="Ghost.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_POLTERGEIST" Power="331" Town="Necropolis" CreatureName="Alt_upgrade/Poltergeist" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WOOD_ELF" Power="409" Town="Sylvan" CreatureName="Wood_Elf" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_GRAND_ELF" Power="433" Town="Sylvan" CreatureName="Grand_Elf" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_SHARP_SHOOTER" Power="447" Town="Sylvan" CreatureName="Alt_upgrade/Sharpshooter" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_ORC_WARRIOR" Power="190" Town="Stronghold" CreatureName="Orc_Warrior" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ORC_SLAYER" Power="254" Town="Stronghold" CreatureName="Orc_Slayer" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ORC_WARMONGER" Power="265" Town="Stronghold" CreatureName="Orc_Warmonger" Shooter="No" Caster="No"/>
+  </Level3>
+  <Level4>
+          <Monster Name ="CREATURE_FIRE_ELEMENTAL" Power="829" Town="Neutral" CreatureName="Fire_Elemental" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_WATER_ELEMENTAL" Power="850" Town="Neutral" CreatureName="Water_Elemental" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_AIR_ELEMENTAL" Power="812" Town="Neutral" CreatureName="Air_Elemental" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_EARTH_ELEMENTAL" Power="856" Town="Neutral" CreatureName="Earth_Elemental" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WOLF" Power="700" Town="Neutral" CreatureName="Wolf" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MAGI" Power="550" Town="Academy" CreatureName="Magi.xdb" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_ARCH_MAGI" Power="1100" Town="Academy" CreatureName="Arch_Magi.xdb" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_COMBAT_MAGE" Power="800" Town="Academy" CreatureName="Combat_Mage" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_RIDER" Power="598" Town="Dungeon" CreatureName="Rider" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_RAVAGER" Power="812" Town="Dungeon" CreatureName="Ravager" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BLACK_RIDER" Power="833" Town="Dungeon" CreatureName="Black_Rider" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BROWLER" Power="318" Town="Fortress" CreatureName="Brawler" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BERSERKER" Power="434" Town="Fortress" CreatureName="Berserker" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BATTLE_RAGER" Power="434" Town="Fortress" CreatureName="Battlerager" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_GRIFFIN" Power="524" Town="Haven" CreatureName="Griffin" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ROYAL_GRIFFIN" Power="716" Town="Haven" CreatureName="Royal_Griffin" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BATTLE_GRIFFIN" Power="697" Town="Haven" CreatureName="Renegates/BattleGriffin" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_SUCCUBUS" Power="511" Town="Inferno" CreatureName="Succubus" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_INFERNAL_SUCCUBUS" Power="694" Town="Inferno" CreatureName="Infernal_Succubus" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_SUCCUBUS_SEDUCER" Power="680" Town="Inferno" CreatureName="Succubus_Seducer.xdb" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_VAMPIRE" Power="518" Town="Necropolis" CreatureName="Vampire" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_VAMPIRE_LORD" Power="739" Town="Necropolis" CreatureName="Vampire_Lord" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_NOSFERATU" Power="757" Town="Necropolis" CreatureName="Alt_upgrade/Nosferatu" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_DRUID" Power="862" Town="Sylvan" CreatureName="Druid" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_DRUID_ELDER" Power="1100" Town="Sylvan" CreatureName="Druid_Elder" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_HIGH_DRUID" Power="862" Town="Sylvan" CreatureName="Alt_upgrade/High_Druid" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_SHAMAN" Power="492" Town="Stronghold" CreatureName="Shaman" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_SHAMAN_WITCH" Power="680" Town="Stronghold" CreatureName="Witch" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_SHAMAN_HAG" Power="900" Town="Stronghold" CreatureName="Hag" Shooter="No" Caster="Yes"/>
+  </Level4>
+  <Level5>
+          <Monster Name ="CREATURE_GENIE" Power="839" Town="Academy" CreatureName="Genie.xdb" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_MASTER_GENIE" Power="1126" Town="Academy" CreatureName="Master_Genie.xdb" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_DJINN_VIZIER" Power="1096" Town="Academy" CreatureName="Djinn_Vizier" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_HYDRA" Power="968" Town="Dungeon" CreatureName="Hydra" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_CHAOS_HYDRA" Power="1324" Town="Dungeon" CreatureName="Chaos_Hydra" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ACIDIC_HYDRA" Power="1333" Town="Dungeon" CreatureName="Acidic_Hydra" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_RUNE_MAGE" Power="932" Town="Fortress" CreatureName="Rune_Mage" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_FLAME_MAGE" Power="1308" Town="Fortress" CreatureName="Flame_Mage" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_FLAME_KEEPER" Power="1329" Town="Fortress" CreatureName="Flame_Keeper" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_PRIEST" Power="1086" Town="Haven" CreatureName="Priest" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_CLERIC" Power="1487" Town="Haven" CreatureName="Cleric" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_ZEALOT" Power="1523" Town="Haven" CreatureName="Renegates/Zealot" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_NIGHTMARE" Power="1069" Town="Inferno" CreatureName="Nightmare" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_FRIGHTFUL_NIGHTMARE" Power="1415" Town="Inferno" CreatureName="Frightful_Nightmare" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_HELLMARE" Power="1434" Town="Inferno" CreatureName="Hellmare" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_LICH" Power="1166" Town="Necropolis" CreatureName="Lich" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_DEMILICH" Power="1539" Town="Necropolis" CreatureName="Demilich" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_LICH_MASTER" Power="1541" Town="Necropolis" CreatureName="Alt_upgrade/Lich_Master" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_UNICORN" Power="1072" Town="Sylvan" CreatureName="Unicorn" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WAR_UNICORN" Power="1441" Town="Sylvan" CreatureName="War_Unicorn" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WHITE_UNICORN" Power="1457" Town="Sylvan" CreatureName="Alt_upgrade/White_Unicorn" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ORCCHIEF_BUTCHER" Power="695" Town="Stronghold" CreatureName="Butcher" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ORCCHIEF_EXECUTIONER" Power="926" Town="Stronghold" CreatureName="Executioner" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ORCCHIEF_CHIEFTAIN" Power="895" Town="Stronghold" CreatureName="Chieftain" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MUMMY" Power="1542" Town="Neutral" CreatureName="Mummy" Shooter="No" Caster="Yes"/>
+  </Level5>
+  <Level6>
+          <Monster Name ="CREATURE_RAKSHASA" Power="2108" Town="Academy" CreatureName="Rakshasa.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_RAKSHASA_RUKH" Power="2535" Town="Academy" CreatureName="Rakshasa_Rukh.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_RAKSHASA_KSHATRI" Power="2581" Town="Academy" CreatureName="Rakshasa_Kshatri.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MATRON" Power="2193" Town="Dungeon" CreatureName="Matron" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_MATRIARCH" Power="2537" Town="Dungeon" CreatureName="Matriarch" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_SHADOW_MISTRESS" Power="2622" Town="Dungeon" CreatureName="Shadow_Mistress" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_THANE" Power="2109" Town="Fortress" CreatureName="Thane" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WARLORD" Power="2477" Town="Fortress" CreatureName="Warlord" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_THUNDER_THANE" Power="2437" Town="Fortress" CreatureName="Tunder_Thane" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_CAVALIER" Power="2185" Town="Haven" CreatureName="Cavalier" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_PALADIN" Power="2520" Town="Haven" CreatureName="Paladin" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_CHAMPION" Power="2520" Town="Haven" CreatureName="Renegates/Champion" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_PIT_FIEND" Power="2102" Town="Inferno" CreatureName="Pit_Fiend" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_BALOR" Power="2360" Town="Inferno" CreatureName="Balor" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_PIT_SPAWN" Power="2448" Town="Inferno" CreatureName="Pit_Spawn.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WIGHT" Power="2204" Town="Necropolis" CreatureName="Wight" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WRAITH" Power="2588" Town="Necropolis" CreatureName="Wraith" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BANSHEE" Power="2449" Town="Necropolis" CreatureName="Alt_upgrade/Banshee" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_TREANT" Power="1717" Town="Sylvan" CreatureName="Treant" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_TREANT_GUARDIAN" Power="1993" Town="Sylvan" CreatureName="Treant_Guardian" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ANGER_TREANT" Power="2032" Town="Sylvan" CreatureName="Alt_upgrade/Anger_Treant" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WYVERN" Power="2058" Town="Stronghold" CreatureName="Wyvern.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WYVERN_POISONOUS" Power="2571" Town="Stronghold" CreatureName="Poisonous_Wyvern" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_WYVERN_PAOKAI" Power="2572" Town="Stronghold" CreatureName="Paokai.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_DEATH_KNIGHT" Power="2560" Town="Neutral" CreatureName="Death_Knight" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MANTICORE" Power="2523" Town="Neutral" CreatureName="Manticore" Shooter="No" Caster="No"/>
+  </Level6>
+  <Level7>
+          <Monster Name ="CREATURE_GIANT" Power="4822" Town="Academy" CreatureName="Giant.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_TITAN" Power="6095" Town="Academy" CreatureName="Titan.xdb" Shooter="Yes" Caster="Yes"/>
+          <Monster Name ="CREATURE_STORM_LORD" Power="6095" Town="Academy" CreatureName="Storm_Lord.xdb" Shooter="Yes" Caster="No"/>
+          <Monster Name ="CREATURE_DEEP_DRAGON" Power="5234" Town="Dungeon" CreatureName="Deep_Dragon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BLACK_DRAGON" Power="6443" Town="Dungeon" CreatureName="Black_Dragon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_RED_DRAGON" Power="6389" Town="Dungeon" CreatureName="Red_Dragon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_FIRE_DRAGON" Power="4883" Town="Fortress" CreatureName="Fire_Dragon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_MAGMA_DRAGON" Power="6100" Town="Fortress" CreatureName="Magma_Dragon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_LAVA_DRAGON" Power="6070" Town="Fortress" CreatureName="Lava_Dragon"/>
+          <Monster Name ="CREATURE_ANGEL" Power="4866" Town="Haven" CreatureName="Angel" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ARCHANGEL" Power="6153" Town="Haven" CreatureName="Archangel" Shooter="No" Caster="Yes"/>
+          <Monster Name ="CREATURE_SERAPH" Power="6003" Town="Haven" CreatureName="Renegates/Seraph" Shooter="No" Caster="Yes"/>
+      <Monster Name ="CREATURE_DEVIL" Power="4868" Town="Inferno" CreatureName="Devil" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_ARCHDEVIL" Power="5850" Town="Inferno" CreatureName="ArchDevil" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_ARCH_DEMON" Power="5860" Town="Inferno" CreatureName="Arch_Demon.xdb" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_BONE_DRAGON" Power="3174" Town="Necropolis" CreatureName="Bone_Dragon" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_SHADOW_DRAGON" Power="3905" Town="Necropolis" CreatureName="Shadow_Dragon" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_HORROR_DRAGON" Power="3872" Town="Necropolis" CreatureName="Alt_upgrade/Horror_Dragon" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_GREEN_DRAGON" Power="4942" Town="Sylvan" CreatureName="Green_Dragon" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_GOLD_DRAGON" Power="6028" Town="Sylvan" CreatureName="Gold_Dragon" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_RAINBOW_DRAGON" Power="5905" Town="Sylvan" CreatureName="Alt_upgrade/Rainbow_Dragon" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_CYCLOP" Power="4790" Town="Stronghold" CreatureName="Cyclop" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_CYCLOP_UNTAMED" Power="5937" Town="Stronghold" CreatureName="Untamed_Cyclop" Shooter="No" Caster="No"/>
+          <Monster Name ="CREATURE_CYCLOP_BLOODEYED" Power="5937" Town="Stronghold" CreatureName="Bloodeyed_Cyclop" Shooter="No" Caster="No"/>
+      <Monster Name ="CREATURE_PHOENIX" Power="8576" Town="Neutral" CreatureName="Phoenix" Shooter="No" Caster="No"/>
+    </Level7>
+  </MonstersInfo>
+  <ComboArmyInfo>
+          <!--  M-melee
+                        S-shooter
+                        C-caster
+                        A-any
+                        (n)-chance(%)
+          -->
+          <Army Size="1" Name="R1" Composition = ""/>
+          <Army Size="2" Name="R2" Composition = "M+M(35);M+S(25);M+C(25);A+A(15)"/>
+          <Army Size="3" Name="R3" Composition = "M+M+M(25);M+M+S(15);M+M+C(15);M+S+S(15);M+S+C(15);A+A+A(15)"/>
+          <Army Size="4" Name="R4" Composition = "R2+R2"/>
+          <Army Size="5" Name="R5" Composition = "R2+R3"/>
+          <Army Size="6" Name="R6" Composition = "R3+R3"/>
+          <Army Size="7" Name="R7" Composition = "R3+R4"/>
+  </ComboArmyInfo>
+  <TownGarrison>
+          <Map Size="Tiny">
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>2</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEMILICH</Creature>
+                                  <Count>2</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>1</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>1</Count>
+                          </Item>
+                  </Garrison>
+          </Map>
+          <Map Size="Small">
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>3</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEMILICH</Creature>
+                                  <Count>3</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>3</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>3</Count>
+                          </Item>
+                  </Garrison>
+          </Map>
+          <Map Size="Medium">
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>1</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEMILICH</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                  </Garrison>
+          </Map>
+          <Map Size="Large">
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>1</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>1</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEMILICH</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>8</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>8</Count>
+                          </Item>
+                  </Garrison>
+          </Map>
+          <Map Size="ExtraLarge">
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>1</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>1</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_LICH_MASTER</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_NOSFERATU</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEMILICH</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                  </Garrison>
+          </Map>
+          <Map Size="Huge">
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_GOLD_DRAGON</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_RAINBOW_DRAGON</Creature>
+                                  <Count>7</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_TITAN</Creature>
+                                  <Count>8</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DRUID_ELDER</Creature>
+                                  <Count>35</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_ARCH_MAGI</Creature>
+                                  <Count>35</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>50</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_ARCH_MAGI</Creature>
+                                  <Count>40</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>5</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>50</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>70</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_BALOR</Creature>
+                                  <Count>25</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_INFERNAL_SUCCUBUS</Creature>
+                                  <Count>50</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_SUCCUBUS_SEDUCER</Creature>
+                                  <Count>50</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_HELLMARE</Creature>
+                                  <Count>45</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_SHAMAN_HAG</Creature>
+                                  <Count>50</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_DEMILICH</Creature>
+                                  <Count>40</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_LICH_MASTER</Creature>
+                                  <Count>40</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_NOSFERATU</Creature>
+                                  <Count>50</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_BLACK_DRAGON</Creature>
+                                  <Count>10</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_HELLMARE</Creature>
+                                  <Count>45</Count>
+                          </Item>
+                  </Garrison>
+          </Map>
+          <Map Size="Impossible">
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>30</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_FIRE_ELEMENTAL</Creature>
+                                  <Count>30</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WATER_ELEMENTAL</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_AIR_ELEMENTAL</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>3</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_PHOENIX</Creature>
+                                  <Count>3</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MUMMY</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEATH_KNIGHT</Creature>
+                                  <Count>15</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_DEMILICH</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                  </Garrison>
+                  <Garrison>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>30</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>30</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_WOLF</Creature>
+                                  <Count>30</Count>
+                          </Item>
+                          <Item>
+                                  <Creature>CREATURE_MANTICORE</Creature>
+                                  <Count>20</Count>
+                          </Item>
+                  </Garrison>
+          </Map>
+  </TownGarrison>
+</Monsters>

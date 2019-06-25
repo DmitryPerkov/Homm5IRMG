@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Objects>
+  <Object Name="Campfire" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_33ED286C-E7D3-4170-BDB9-8BBB9FCDED5E">
+      <AdvMapTreasure>
+        <Pos>
+          <x>21</x>
+          <y>42</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Campfire.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Crystal" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_1F59740E-1613-4093-854C-4FA28898D3FC">
+      <AdvMapTreasure>
+        <Pos>
+          <x>23</x>
+          <y>42</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Crystal.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Gems" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_9B055508-CC55-4D46-8F42-A4E430E4B82C">
+      <AdvMapTreasure>
+        <Pos>
+          <x>25</x>
+          <y>42</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Gems.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Gold" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_1D09D35C-4E72-4975-8D63-87BC5413ED0F">
+      <AdvMapTreasure>
+        <Pos>
+          <x>21</x>
+          <y>38</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Gold.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Mercury" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_3FCCBE0A-8474-4A03-9F92-7857F043132F">
+      <AdvMapTreasure>
+        <Pos>
+          <x>23</x>
+          <y>38</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Mercury.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Ore" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_1B2564FD-77DB-4AE5-9CB7-180CBA43A73D">
+      <AdvMapTreasure>
+        <Pos>
+          <x>25</x>
+          <y>38</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Ore.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Random-Any" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_5EB85DB2-E7CA-4E82-8E53-E95513C457C4">
+      <AdvMapTreasure>
+        <Pos>
+          <x>21</x>
+          <y>34</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Random-Any.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Sulfur" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_7DA5C0CC-79FB-436E-8FE0-3E8C28C19CA2">
+      <AdvMapTreasure>
+        <Pos>
+          <x>25</x>
+          <y>34</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Sulfur.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Chest" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_DA9D8EC9-E414-4117-B54C-0B66301D44BC">
+      <AdvMapTreasure>
+        <Pos>
+          <x>21</x>
+          <y>31</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Chest.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+  <Object Name="Wood" Type="Treasure">
+    <Item href="#n:inline(AdvMapTreasure)" id="item_3BB2ED0D-F3B4-446D-9602-C3B0F92A6C64">
+      <AdvMapTreasure>
+        <Pos>
+          <x>24</x>
+          <y>31</y>
+          <z>0</z>
+        </Pos>
+        <Rot>0</Rot>
+        <Floor>0</Floor>
+        <Name />
+        <CombatScript />
+        <pointLights />
+        <Shared href="/MapObjects/Wood.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)" />
+        <IsCustom>false</IsCustom>
+        <Amount>0</Amount>
+        <MessageFileRef href="" />
+      </AdvMapTreasure>
+    </Item>
+  </Object>
+</Objects>

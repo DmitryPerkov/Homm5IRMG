@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Objects>
+<Object Name="RandomDwelling">
+  <Item href="#n:inline(AdvMapDwelling)" id="item_349CA4BC-4AEE-4DC2-B632-5E95632F7D66">
+    <AdvMapDwelling>
+      <Pos>
+        <x>11</x>
+        <y>88</y>
+        <z>0</z>
+      </Pos>
+      <Rot>0</Rot>
+      <Floor>0</Floor>
+      <Name/>
+      <CombatScript/>
+      <pointLights/>
+      <Shared href="/MapObjects/Random/RandomDwelling2.xdb#xpointer(/AdvMapDwellingShared)"/>
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName/>
+        </Action>
+      </CaptureTrigger>
+      <RandomCreatures>true</RandomCreatures>
+      <creaturesEnabled/>
+      <RndSource>RND_NONE</RndSource>
+      <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      <LinkToTown/>
+    </AdvMapDwelling>
+  </Item>
+</Object>
+<Object Name="PlayerLinkedRandomDwelling">
+  <Item href="#n:inline(AdvMapDwelling)" id="item_349CA4BC-4AEE-4DC2-B632-5E95632F7D66">
+    <AdvMapDwelling>
+      <Pos>
+        <x>11</x>
+        <y>88</y>
+        <z>0</z>
+      </Pos>
+      <Rot>0</Rot>
+      <Floor>0</Floor>
+      <Name/>
+      <CombatScript/>
+      <pointLights/>
+      <Shared href="/MapObjects/Random/RandomDwelling2.xdb#xpointer(/AdvMapDwellingShared)"/>
+      <PlayerID>PLAYER_NONE</PlayerID>
+      <CaptureTrigger>
+        <Action>
+          <FunctionName/>
+        </Action>
+      </CaptureTrigger>
+      <RandomCreatures>true</RandomCreatures>
+      <creaturesEnabled/>
+      <RndSource>RND_PLAYER</RndSource>
+      <LinkToPlayer>PLAYER_NONE</LinkToPlayer>
+      <LinkToTown/>
+    </AdvMapDwelling>
+  </Item>
+</Object>
+</Objects>
