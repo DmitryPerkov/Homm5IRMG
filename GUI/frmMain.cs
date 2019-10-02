@@ -32,7 +32,7 @@ namespace Homm5RMG
     public partial class frmMain : Form
     {
         #region Constant
-        public static readonly string STR_VERSION = "Version 1.8.2";
+        public static readonly string STR_VERSION = "Version 1.8.3";
         public static string templatelist;
         #endregion
 
