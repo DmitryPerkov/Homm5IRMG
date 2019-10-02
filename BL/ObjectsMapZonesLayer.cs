@@ -63,6 +63,7 @@ namespace Homm5RMG
         public System.Collections.ArrayList FreeZonesList; //dwp ведем глобальный список свобоных "вороных"
         public System.Collections.ArrayList MapPointsInVP; 
         public double freePrecentage;
+        public double LastPrecentage;
         public double busyPrecentage;
         public int countAttempt;
         public VoronoiPoint LastAddedVP;
@@ -1371,6 +1372,7 @@ namespace Homm5RMG
             {
                 #region Generate 30 priliminary zones
                 //get 30 random points And add them to the voronoi algorithem as data points
+                // увеличиваем до 50, так как расчет связанности стал лучше
                 for (int i = 0; i < 30; i++)
                 {
 
@@ -1466,8 +1468,9 @@ namespace Homm5RMG
             for (int i = thSelectedTemplate.IPLAYERNUMBER; i < iarrEvaluatioinOrderListIndecies.Length; i++)
             {
                 if (//dwp использовали места больше чем разместили зон
-                    freePrecentage + (iarrEvaluatioinOrderListIndecies.Length - i)*dMinDifference
-                    <  100 - busyPrecentage) {
+                    freePrecentage + //2*dMinDifference  // не допускаем убегание "вперед" более двойной погрешности
+                    (iarrEvaluatioinOrderListIndecies.Length - i)*dMinDifference  // раньше было по количеству оставшихся неразмещенных зон, что много 
+                    < 100 - busyPrecentage) {
                     return "Failed"; //dwp места точно не хватит - ускоряем выбор следующего варианта
                 }
                 //first for first zone and its adjacencies group
@@ -1479,7 +1482,8 @@ namespace Homm5RMG
                 vpFirstPrevPoint = LastAddedVP;
                 if (eStatus == eZonesStatus.Undefineable ||
                     //dwp использовали места больше чем разместили зон
-                    freePrecentage + (iarrEvaluatioinOrderListIndecies.Length - i)*dMinDifference
+                    freePrecentage + //2*dMinDifference // не допускаем убегание "вперед" более двойной погрешности 
+                    (iarrEvaluatioinOrderListIndecies.Length - i)*dMinDifference // раньше было по количеству оставшихся неразмещенных зон, что много 
                     <  100 - busyPrecentage) {
                     return "Failed"; //dwp места точно не хватит - ускоряем выбор следующего варианта
                 }
@@ -1496,6 +1500,7 @@ namespace Homm5RMG
                     busyPrecentage = busyPrecentage + iarrPrecentageList[iarrEvaluatioinOrderListIndecies[i] - 1];
                     vpSecondPrevPoint = LastAddedVP;
                 }
+
             }
 
             #endregion
@@ -1758,6 +1763,7 @@ namespace Homm5RMG
                this.ZonesListPoints[iZoneIndex - 1].Add(vpZonePoint);
                this.FreeZonesList.Remove(vpZonePoint); //dwp удаляем занятую точку
                freePrecentage = freePrecentage - dVoronoiSize;
+               LastPrecentage = dVoronoiSize;
                LastAddedVP = vpZonePoint;
            }
            else
@@ -1777,7 +1783,7 @@ namespace Homm5RMG
                   
                    //todo:unmark next 2 rows and handle if no adjacenies found
                    if (vpAdjacent == null)//if no adjacent zones get any free zones and continue algorithem
-                      vpAdjacent = GetAdjacentFreeZoneForEntireZoneGroup(iZoneIndex - 1);
+                      vpAdjacent = GetAdjacentFreeZoneForEntireZoneGroup(vpZonePoint,iZoneIndex - 1);
                    
                    if (vpAdjacent == null)//if no free zones at all - can't be error in algorithem
                        return eZonesStatus.Undefineable;
@@ -1848,6 +1854,47 @@ namespace Homm5RMG
             return (VoronoiPoint)this.ZonesListPoints[iLastIndex - 1][this.ZonesListPoints[iLastIndex - 1].Count - 1 ];
         }
 
+        // улучшеная проверка связанности соседней зоны, со списком всех точек размещенных вороных зон
+        public bool IsAdjacentForEntireZoneGroup(ArrayList Areas, VoronoiPoint vpNext, out int HowAdjacentpoint)
+        {
+            int iAdjacenciesCount, totalAdjacenciesCount = 0;
+            MapPoint CurMp;
+
+            for (int i = 0; i < Areas.Count; i++)
+            {
+                CurMp = (MapPoint)Areas[i];
+                if (CurMp.x >= 1 && CurMp.y >= 1 &&
+                    CurMp.x < (int)eMapSize - 1 && CurMp.y < (int)eMapSize - 1)
+                {
+                    iAdjacenciesCount = 0;
+                    //array of points which define a round trip around a sqaure to check all its adjacencies 
+                    MapPoint[] arrmp =  {
+                            new MapPoint(0,1) , new MapPoint (1,1) , new MapPoint (1,0),
+                            new MapPoint(1,-1) , new MapPoint (0,-1) , new MapPoint(-1,-1),
+                            new MapPoint( -1, 0) , new MapPoint(-1,1)
+                        };
+                    foreach (MapPoint mpItem in arrmp)
+                    {
+                        //if one of the surrounding sqaures belongs to questioned zone then raise counter
+                        // if (IsInsideMapLimit(i + mpItem.x , j + mpItem.y) )
+                        // {
+                        if ((int)this.iarrMap[(int)MapLayer.VoronoiZones, CurMp.x + mpItem.x, CurMp.y + mpItem.y] == vpNext.iAreaCode)
+                        {
+                            iAdjacenciesCount++;
+                        }
+                        // }    
+                    }
+                    if (iAdjacenciesCount >= 3) totalAdjacenciesCount++;
+                }
+            }
+
+            //check if point have 6 straight adjacencies in this count if true return true else flase
+            HowAdjacentpoint = totalAdjacenciesCount;
+            if (totalAdjacenciesCount < I_ADJACENCIES_FACTOR)
+                return false;
+            else
+                return true;
+        }
         /// <summary>
         /// returns an adjacent zone to the zone given
         /// adjacent means there is a connection path of 
@@ -1883,23 +1930,41 @@ namespace Homm5RMG
         /// </summary>
         /// <param name="iZoneIndex">Zone not to get a free zone for</param>
         /// <returns>vp point of the free adjacent zone</returns>
-        public VoronoiPoint GetAdjacentFreeZoneForEntireZoneGroup(int iZoneIndex)
+        /// процедура будет искать связанную зону не только к одной из зон группы(было ранее), а ко всей группе
+        public VoronoiPoint GetAdjacentFreeZoneForEntireZoneGroup(VoronoiPoint vpCenterZone,int iZoneIndex)
         {
-          //  int i = this.ZonesListPoints[iZoneIndex];
+            int MaxAPoints = 0, CurAPoints;
+            VoronoiPoint BestAZone = null;
+            int vpindex = vZoneMaker.VoronoiPoints.IndexOf(vpCenterZone);
+            ArrayList CurList = new ArrayList();
+            CurList.AddRange((ArrayList)this.MapPointsInVP[vpindex]);
 
             foreach (VoronoiPoint vpSourceZone in ZonesListPoints[iZoneIndex])
             {
-                VoronoiPoint vpAdjacetFreeZone = GetAdjacentFreeZone(vpSourceZone);
-                if (vpAdjacetFreeZone != null)
-                    return vpAdjacetFreeZone;
+                vpindex = vZoneMaker.VoronoiPoints.IndexOf(vpSourceZone);
+                CurList.AddRange((ArrayList)this.MapPointsInVP[vpindex]);
             }
-            return null;
+
+            foreach (VoronoiPoint vpZone in this.FreeZonesList)
+            {
+              if(IsAdjacentForEntireZoneGroup(CurList, vpZone, out CurAPoints))
+              {
+                    if (CurAPoints > MaxAPoints)
+                    {
+                        BestAZone = vpZone;
+                        MaxAPoints = CurAPoints;
+                    }
+              }
+            }
+            CurList.Clear();
+            return BestAZone;
         }
 
         //will determine number of common squares for zones to be defined as adjacent
         //dwp так как алгоритм пробивания усилен. делаем достаточным для пробивания 10 точек
+        // у автора было 30, ставил 10 оказалось мало, поставлю 20 - зоны должны быть сильней связаны
         //dwp увеличим фактор связанности немного 
-        public const int I_ADJACENCIES_FACTOR = 11; 
+        public const int I_ADJACENCIES_FACTOR = 20; 
 
         /// <summary>
         /// Gets 2 zones and check if there is atleast 8 sQuares adjacent betWeen zones
