@@ -513,7 +513,7 @@ namespace Homm5RMG
             }
 
             //if some is free then can place object
-            if ((double)iCountFreePoints / moObjectToBePlaced.ObjectSize > 0.15)
+            if ((double)iCountFreePoints > 0) //dwp модифицировал в 1.8.3 было > 15%
             {
                 return true;
             }
@@ -1420,14 +1420,22 @@ namespace Homm5RMG
         }
 
         MapPoint[] mparrMarkingPoint = {
-            new MapPoint (1,0) , new MapPoint (2,0) ,new MapPoint (-1,0) ,new MapPoint(-2,0),
-            new MapPoint (3,0) , new MapPoint (-3,0) ,new MapPoint (3,1) , new MapPoint(-3,1),
-            new MapPoint (4,0) , new MapPoint (-4,0) ,new MapPoint (4,1) , new MapPoint(-4,1),
-            new MapPoint (1,1) , new MapPoint (2,1) ,new MapPoint (-1,1) ,new MapPoint(-2,1),
-            new MapPoint (1,-1) , new MapPoint (2,-1) ,new MapPoint (-1,-1) ,new MapPoint(-2,-1),
-            new MapPoint(0,1),new MapPoint(0,-1),new MapPoint (3,-1) , new MapPoint (-3,-1)
-            ,new MapPoint (4,-1) , new MapPoint (-4,-1),
-        };
+            new MapPoint (1,-1) , new MapPoint (2,-1), new MapPoint (3,-1),  new MapPoint (4,-1),
+            new MapPoint (1,-2) , new MapPoint (2,-2), new MapPoint (3,-2),  new MapPoint (4,-2),
+            new MapPoint (1,-3) , new MapPoint (2,-3), new MapPoint (3,-3),  new MapPoint (4,-3),
+            new MapPoint (1,0) ,  new MapPoint (2,0) , new MapPoint (3,0) ,  new MapPoint (4,0) ,
+            new MapPoint (1,1) ,  new MapPoint (2,1) , new MapPoint (3,1) ,  new MapPoint (4,1) ,
+            new MapPoint (1,2) ,  new MapPoint (2,2) , new MapPoint (3,2) ,  new MapPoint (4,2) ,
+            new MapPoint (1,3) ,  new MapPoint (2,3) , new MapPoint (3,3) ,  new MapPoint (4,3) ,
+            new MapPoint (-1,0) , new MapPoint(-2,0),  new MapPoint (-3,0) , new MapPoint (-4,0),
+            new MapPoint (-1,1) , new MapPoint(-2,1),  new MapPoint (-3,1),  new MapPoint(-4,1),
+            new MapPoint (-1,2) , new MapPoint(-2,2),  new MapPoint (-3,2),  new MapPoint(-4,2),
+            new MapPoint (-1,3) , new MapPoint(-2,3),  new MapPoint (-3,3),  new MapPoint(-4,3),
+            new MapPoint (-1,-1), new MapPoint(-2,-1), new MapPoint (-3,-1), new MapPoint (-4,-1),
+            new MapPoint (-1,-2), new MapPoint(-2,-2), new MapPoint (-3,-2), new MapPoint (-4,-2),
+            new MapPoint (-1,-3), new MapPoint(-2,-3), new MapPoint (-3,-3), new MapPoint (-4,-3),
+            new MapPoint (0, 1),  new MapPoint(0,-1),  new MapPoint (0, 2),  new MapPoint(0,-2), new MapPoint (0, 3),  new MapPoint(0,-3)
+        };  
 
 
         /// <summary>
